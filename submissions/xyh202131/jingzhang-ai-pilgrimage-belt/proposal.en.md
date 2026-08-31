@@ -5,8 +5,8 @@ language: "en"
 translation_of: "proposal.md"
 proposal_format_version: "2"
 bilingual_contract_version: "1"
-version: "61.0"
-iteration: "61.0"
+version: "65.0"
+iteration: "65.0"
 license: "CC-BY-4.0"
 summary: "Haidian's innovation density becomes public capability only when people can use, question and exit without accounts, devices or professional identity. Twin-Track Jing-Zhang keeps ordinary tasks continuous and G0 verification intermittent and stoppable; three distinct prototypes connect evidence, risk and professional handoff. Boundaries remain provisional; outcomes, approvals, field execution and accepted professional duties remain zero."
 tracks:
@@ -22,7 +22,7 @@ scenarios:
   - robot-delivery-low-speed
 ---
 
-# Twin-Track Jing-Zhang
+## Proposal ruling
 
 - Chinese name: **双轨京张**
 - Back-stage audit system: JZ-AIOS (Jing-Zhang Auditable Innovation Operating System)
@@ -35,6 +35,8 @@ Public materials place Haidian's talent, residents, services and opened Jing-Zha
 
 **Proof may not occupy the ground required to complete an ordinary task.** Ordinary ground carries movement, rest, questions, care, and basic services first; proof may appear only beside it, bounded, stoppable, and removable.
 
+Review follows one anonymous ordinary task before it follows a system: **arrive → understand → complete → correct or withdraw → leave**. If any action requires an account, scan, screen, network or AI, the Continuous Civic Track has not been established. If a person cannot finish through staff and leave safely during failure, the verification overlay must stop. This is a front-stage reading of the existing seven rights and same-task dual paths, not a new persona, scene, service promise or maturity claim.
+
 | Three non-interchangeable prototypes | Explicitly rejected | Spatial answer kept | What continues on failure |
 |---|---|---|---|
 | **Zhongzhiyuan · Verify** | Proof crossing the ordinary path | Parallel bypass plus a side verification garden, with staffed handoff between the routes | Ordinary bypass, physical information, and staffed handoff |
@@ -45,11 +47,11 @@ Public materials place Haidian's talent, residents, services and opened Jing-Zha
 
 > **The four states change only the verification overlay.** Ordinary use works first; verification appears only after its preconditions are met. Failure isolates verification objects while the complete non-AI path, staffed handoff, withdrawal, and appeal continue. Recovery returns ordinary ground and the same task before recheck; it **is not authorization, approval, restart or G1**. The motion diagram's 54 seconds are editorial pacing, and its static fallback gives the same answer; neither states a real recovery duration.
 
-> **Truth boundary.** These are G0 conceptual relationships on provisional geometry, not a survey, precise masterplan, approved design, accessibility result, or resident opinion. Official redlines, exact anchors, real thresholds, accountable parties, field service, approval, and independent retesting remain 0 or `unknown`. Contributor content, code, the OSM-derived layer, and the Noto subset use CC BY 4.0, MIT, ODbL, and OFL respectively; third-party citations and repository inputs are not relicensed. All 157/157 paths have component-level decisions, but there is no package-wide licence. Images prove no site, service, public-feedback, or maturity outcome, and prior model-generated media remains removed.
+> **Truth boundary.** These are G0 conceptual relationships on provisional geometry, not a survey, precise masterplan, approved design, accessibility result, or resident opinion. Official redlines, exact anchors, real thresholds, accountable parties, field service, approval, and independent retesting remain 0 or `unknown`. Contributor content, code, the OSM-derived layer, and the Noto subset use CC BY 4.0, MIT, ODbL, and OFL respectively; third-party citations and repository inputs are not relicensed. All 162/162 paths have component-level decisions, but there is no package-wide licence. Images prove no site, service, public-feedback, or maturity outcome, and prior model-generated media remains removed.
 
 ![Twin-Track Jing-Zhang civic-ground structure: one continuous ordinary spine and six cross-links connect three non-interchangeable prototypes while side verification, staffed handoff, and failure objects stay off the ordinary path; G0, provisional, not to scale](assets/figures/site-overview.en.png)
 
-The eight-question map, synthetic replay, and handoff material have one back-stage entry: [review handoff](visual/index.en.html#review-handoff). It supports traceability only, not public feedback, expert opinion, field results, authorization, or maturity advancement. The proposal retains 12 scenarios, 8 projects, 3 key areas, and 36 conceptual land-use cells; all 13 formal chapters and their order remain unchanged.
+The eight-question map, synthetic replay, and handoff material have one back-stage entry: `visual/index.en.html#handoff` (review handoff). It supports traceability only, not public feedback, expert opinion, field results, authorization, or maturity advancement. The proposal retains 12 scenarios, 8 projects, 3 key areas, and 36 conceptual land-use cells; all 13 formal chapters and their order remain unchanged.
 
 ## Design Basis and Source List
 
@@ -111,7 +113,20 @@ The evidence is organized into four tiers, each limited to a role consistent wit
 
 ### Evidence Is Not a One-Time Snapshot: Expiry Must Propagate Downstream
 
-`sources.json` records 48 sources; an access date proves neither continued availability nor performance. On 2026-08-24, two `review_due` items were checked: Barcelona's page still identifies 22@ as an innovation and technology-transfer hub; the King's Cross source returned 403, so an accessible consultation page from the same operator now supports only human-scale, public-space and continuing-consultation comparisons. This updates access status, not Haidian control, approval, outcome or maturity evidence [data:visual/assets/evidence-freshness-policy.json#refresh_records]. Provisional spatial data remains `provisional_only`.
+`sources.json` records 52 sources; an access date proves neither continued availability nor performance. On 2026-08-24, two `review_due` items were checked: Barcelona's page still identifies 22@ as an innovation and technology-transfer hub; the King's Cross source returned 403, so an accessible consultation page from the same operator now supports only human-scale, public-space and continuing-consultation comparisons. This updates access status, not Haidian control, approval, outcome or maturity evidence [data:visual/assets/evidence-freshness-policy.json#refresh_records]. Provisional spatial data remains `provisional_only`.
+
+### Policy Sets Entry Gates; It Does Not Replace Approval or Responsibility
+
+This round compresses six existing policy directions into one anti-misreading structure: applicability must be established before policy can be translated into an ordinary task or a spatial or service action; the human handoff, stop condition and prohibited inference must then be stated. The complete bilingual record is `visual/assets/policy-to-task-register.json`. It is a G0 policy translation, not legal advice or project approval.
+
+| Policy applicability boundary | Action entering this proposal | Stop and prohibited inference |
+|---|---|---|
+| “AI+” supplies people-centred, open-sharing and safe-controllable policy direction only | Unmanned or smart service sits beside the continuous ordinary route; failure of the public-value, technical or governance gate prevents graduation | Stop verification when the ordinary task or same-task non-AI route is blocked; this proves no approval, funding, service capacity or G1 [source:AI-PLUS-2025] |
+| Article 39 of the Barrier-Free Environment Construction Law is limited to listed medical, social-security, financial and living-payment matters | Only when an actual JZ-05 or `SCENE-011/012` matter falls within the list does a reachable staffed desk and handoff position become a G1 prerequisite | Unclear scope, human reachability or professional review means NO-GO; do not generalize to every park or digital interface, and do not claim existing-facility compliance [source:DATA-SRC-BARRIER-FREE-ENVIRONMENT-LAW] |
+| The elderly smart-technology plan is `background_only` context for parallel traditional and smart channels | The existing seven non-AI public rights continue to guarantee the same task, a visible entry and equivalent completion; the smart channel is never the sole entry | An absent traditional channel or missing group co-test cannot be described as compliance; this proves no Haidian implementation, demand scale or coverage [source:DATA-SRC-ELDERLY-SMART-TECH-PLAN-2020-45] |
+| The Interim Measures for Generative AI apply only to candidate services providing generated content to the public within mainland China | Before a relevant candidate enters G1, preregister a complaint/reporting entry, responsible role, handling process and project-defined feedback timeframe | A missing element or an error affecting a formal matter stops the overlay; do not infer a general opt-out from Article 14, invent a numeric Article 15 deadline, or claim filing or security assessment [source:DATA-SRC-GENERATIVE-AI-INTERIM-MEASURES] |
+| Generated-content labeling rules apply only to relevant generated content | Retain explicit labels, metadata labels where applicable, human curatorial review and removal when verification fails | Do not publish when provenance, generation method, model, authorization or unprovable matters are missing; labeling is not clearance, factual truth or installation permission [source:AI-CONTENT-LABEL-2025] |
+| Haidian's three groups and “five-minute support” provide public background priorities only | Map them to the existing seven personas and support cells as future co-testing questions, without adding scenarios or inventing coverage | Without a field baseline, group co-testing and accepted responsibility, remain at G0; this proves no participant recruitment, completed research, partner commitment or service performance [source:HAIDIAN-JZ-MIDTERM-2026] |
 
 The professional response separates standards by question instead of stacking identifiers behind one conclusion:
 
@@ -319,17 +334,17 @@ The three pilgrimage landmarks are redefined as three chapters in one knowledge 
 
 The “restoration acceptance” above is a conceptual checklist for a future accountable role, not site approval, completion acceptance, or proof that existing conditions comply. All three prototypes require removability, stoppability, and a detour, but no component may be sited until exact land, ownership, fire, railway protection, municipal, accessibility, and operating responsibility evidence has passed professional review [assumption:A-KEY-AREA-SPATIAL-011] [data:visual/assets/key-area-evidence-matrix.json#round2_spatial_deepening].
 
-### Ordinary-Life Spatial Scenes: See How People Use the Place before Adding the System
+### One Person, One Task, One Place: Follow the Ordinary Task First
 
-The human-scale figure is not an atmospheric layer placed over dense system diagrams. It translates one public-rights rule into a reviewable journey: **a person can first walk, stay, ask, exit and complete the basic task; AI appears only in a side-positioned, optional, stoppable overlay.** Zhongzhiyuan separates an ordinary bypass from a parallel verification court. Origin Community uses one screen-free resident street to link two courts. Dazhongsi places the commuter spine and quiet staffed service beside optional activity. No place requires an account, scan, screen, network or AI, and none places verification furniture, platform, queue or cables in the continuous daily route [data:visual/assets/non-ai-parity-contract.json] [data:visual/assets/key-area-evidence-matrix.json].
+The human-scale figure applies one five-action lens to three different spaces: **arrive, understand, complete, correct or withdraw, and leave**. In Zhongzhiyuan, a person reads physical status from the parallel bypass, finds staff and leaves safely. In Origin Community, a person uses the resident street to raise a task on paper or by speech, complete it with staff and withdraw. At Dazhongsi, a person keeps the four-way commute while checking a source and correcting it off-route. AI appears only in a side-positioned, optional, stoppable overlay. No place requires an account, scan, screen, network or AI, and none places verification furniture, platform, queue or cables in the continuous daily route [data:visual/assets/non-ai-parity-contract.json] [data:visual/assets/key-area-evidence-matrix.json].
 
-![Ordinary-life journey: each place keeps entering, understanding, completing a staffed task, correcting or leaving as the complete non-AI path, while verification remains beside it; G0 concept, not field evidence or an accessibility result](assets/figures/ordinary-life-journey.en.png)
+![One person, one task, one place: arrive, understand, complete, correct or withdraw, and leave form the complete non-AI path; Zhongzhiyuan uses a parallel bypass, Origin Community one street and two courts, and Dazhongsi a four-way commute, while verification stays beside them; G0 concept, not field or accessibility evidence](assets/figures/ordinary-life-journey.en.png)
 
-This editable vector is produced by the package's deterministic build script without a site photograph, map screenshot, private image, identifiable person, logo, third-party visual or model-generated pixel. It converts the existing place contracts into a human-scale reading sequence and proves no real flow, service capacity, accessibility compliance or resident opinion [data:visual/assets/non-ai-parity-contract.json].
+This contributor-authored editable vector is rendered locally and deterministically to PNG without a site photograph, map screenshot, private image, identifiable person, logo, third-party visual or model-generated pixel. It converts the existing place contracts into a human-scale reading sequence and proves no real flow, service capacity, accessibility compliance or resident opinion [data:visual/assets/non-ai-parity-contract.json].
 
 **Ordinary—verification—fault—recovery.** Ordinary state first keeps physical wayfinding, continuous accessibility intent, screen-free staying and staffed explanation. Verification permits only a future announced, authorized, time-bounded, accountable, removable overlay outside the route; the figure does not prove those conditions exist. Fault immediately stops the overlay, isolates equipment, explains through staff and keeps the bypass. Recovery removes the overlay and restores surface, planting, quiet and passage first. Unless independent review confirms restoration, the object remains at G0, stays stopped or retires. The three places share this order but implement it differently through equipment isolation, consent withdrawal and source correction, so they cannot be copied mechanically [source:SOURCE-ORDINARY-LIFE-PROPOSAL-R12] [data:visual/assets/key-area-evidence-matrix.json#round2_spatial_deepening].
 
-**Rights visible in the image do not prove current site provision.** The wheelchair user, older people, children, caregivers, and commuters test whether the relationship is legible; they are not real participants, consent, or research samples. Tactile wayfinding, step-free continuity, clear width, slope, turning, rest, fire, railway protection, municipal conditions, and staffed-service capacity still require survey, co-testing, and professional responsibility. Real photographs, confirmed viewpoints, field observations, approved components, operational interactions, confirmed accessibility results, and confirmed restoration results all remain 0. The image cannot establish location, scale, dimension, material, shift, construction, operation, or approval [assumption:A-KEY-AREA-SPATIAL-011] [data:visual/assets/implementation-handoff-matrix.json].
+**Rights visible in the image do not prove current site provision.** Anonymous standing and wheeled-mobility symbols test whether the task chain and spatial relationship are legible; they do not represent real identities, participation, consent, or research samples. Tactile wayfinding, step-free continuity, clear width, slope, turning, rest, fire, railway protection, municipal conditions, and staffed-service capacity still require survey, co-testing, and professional responsibility. Real photographs, confirmed viewpoints, field observations, approved components, operational interactions, confirmed accessibility results, and confirmed restoration results all remain 0. The image cannot establish location, scale, dimension, material, shift, construction, operation, or approval [assumption:A-KEY-AREA-SPATIAL-011] [data:visual/assets/implementation-handoff-matrix.json].
 
 ## AI Innovation Ecosystem, Personas, and AI+ Scenarios
 
@@ -487,6 +502,10 @@ A professional team therefore does not need to reinterpret all 99 slots. It subm
 | H06 Public parity | Community co-test, same-task non-AI parity comparison, and appeal/withdrawal record | Community co-test | Not submitted / NO-GO |
 | H07 Retest and decision | Independent retest package, versioned finding register, and signed go/no-go minute | Independent retest + final decision | Not submitted / NO-GO |
 
+**Duty-acceptance ruling.** H01–H02 first ask who accepts duty and within what exact scope they may act; H03–H05 then ask whether the ordinary-task baseline, prohibited-data controls, and stop/recovery sequence are reproducible; H06–H07 finally ask whether affected groups have same-task parity, the retester is independent, and the final decision permits a veto. Any missing item in any group must refuse real-world start and retain NO-GO. Even all seven closed only permits considering G1; it never auto-authorizes, approves, or restarts. Written real-world acceptance is currently 0/7, approvals are 0, and field execution is 0. The ordinary route, printed/staffed same-task service, correction, complaint, withdrawal, and exit do not wait for duty acceptance; failure stops verification only [data:visual/assets/professional-handoff-candidate.json#PRE-G1-JZ05-SCENE011-T02] [data:visual/assets/readiness-closure-contract.json#JZ-READINESS-CLOSURE-V1].
+
+**Independent human bilingual review remains incomplete.** On the final PR exact head, a reviewer must complete HUMAN-EQ-01-08 in order: ordinary task and thesis, three prototypes, values and denominators, source authority, G0/provisional/not-approved boundaries, figure/media/page positions, implementation gates and professional veto, and duty/refusal/ordinary-life floor. Artifact hashes are recorded from `manifest.json` before each result and discrepancy is entered. Independent human results remain 0/8 and signoff is `not_signed`; a null, cannot-determine or unresolved material discrepancy blocks signoff. Machine bilingual PASS proves packaging consistency only [data:visual/assets/bilingual-material-equivalence.json#formal_human_review_packet].
+
 Phasing uses “year window + evidence gate”; a date never automatically grants eligibility to enter the next phase [data:geometry/phasing.geojson#PHASE-1] [metric:phase_count] [depth:phasing_implementation]:
 
 | Window | Status | Admission gate | Graduation gate | Rollback |
@@ -561,7 +580,7 @@ The back-stage index answers five trace steps: culture returns to correctable na
 | 4 · Evidence/rights | Where does a claim lead, and what remains unproved? | `sources.json`, the rights ledger, scene passports and T-02 synthetic replay; field outcomes, public opinion, independent clearance and real recovery duration remain 0 or `unknown` |
 | 5 · Responsibility | Who may change or reject? | D01–D08 replace provisional objects; H01–H07 remain unsubmitted; only a future competent party accepting an exact scope may recalculate, revise, condition, reject or delete [data:visual/assets/implementation-handoff-matrix.json] |
 
-![Review and professional handoff: one concept, three prototypes, one kernel, six tasks, eight real inputs, seven suggested disciplines and a NO-GO stop line; real inputs and accepted duties remain 0](assets/figures/review-professional-handoff.en.png)
+![Duty-acceptance gate and professional handoff: the sole candidate passes through accountability and operations, public parity, and independent-retest role types, then three H01-H07 decision groups; any missing item means refuse and retain NO-GO, ordinary life continues, and real accepted duty remains 0](assets/figures/review-professional-handoff.en.png)
 
 ### Sole pre-G1 professional handoff candidate: JZ-05 × SCENE-011 × T-02
 
@@ -579,7 +598,7 @@ Local professional materials include `brief/site-package/standards/standards.jso
 
 Recent policy and site context comprises [source:BEIJING-AI-ORIGIN-2026], [source:BEIJING-AI-DISTRICTS-2026], [source:HAIDIAN-JZ-PHASE2-OPEN-2026], [source:HAIDIAN-AI-TRIAL-FIELD-2026], [source:HAIDIAN-JZ-MIDTERM-2026], and [source:HAIDIAN-15FYP-2026]. These public-web desk sources support only a reported baseline, policy intent, and questions for verification—not a site survey, as-built proof, parcel approval, or institutional commitment.
 
-Governance and method context also includes [source:NATIONAL-DATA-INFRA-2025], [source:AI-CONTENT-LABEL-2025], [source:AI-PLUS-2025], [source:JZ-PARK-2023], and [source:JZ-COCREATION-2021]. They support only direction, method, and governance boundaries; they create no project approval, funding, partnership, or control value.
+Governance and method context also includes [source:NATIONAL-DATA-INFRA-2025], [source:AI-CONTENT-LABEL-2025], [source:AI-PLUS-2025], [source:DATA-SRC-BARRIER-FREE-ENVIRONMENT-LAW], [source:DATA-SRC-ELDERLY-SMART-TECH-PLAN-2020-45], [source:DATA-SRC-GENERATIVE-AI-INTERIM-MEASURES], [source:JZ-PARK-2023], and [source:JZ-COCREATION-2021]. They support only direction, method, and governance boundaries. The elderly smart-technology plan remains `background_only`, and statutory duties stay scoped to their actual subjects; none creates project approval, funding, partnership, enforcement authority, or a control value.
 
 Innovation-district mechanism comparisons include [source:CASE-KENDALL], [source:CASE-ONE-NORTH], and [source:CASE-22AT]. Heritage-renewal and operating mechanisms additionally reference [source:CASE-KINGS-CROSS], [source:CASE-STATION-F], and [source:CASE-MARS]. Existing directional context is [source:OSM-CONTEXT]. Its ODbL data is used only to identify roads, railways, and waterways and cannot serve as an official boundary or engineering basis.
 

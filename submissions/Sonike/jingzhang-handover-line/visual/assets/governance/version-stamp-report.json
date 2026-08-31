@@ -3,7 +3,7 @@
   "package_version": "v2.0",
   "visible_label": "JING-ZHANG HANDOVER LINE / PACKAGE v2.0",
   "source_font_sha256": "ca094f6b0001fb048ca39ddd797a0cdb0179e1e55c6561e111c49c3e6a61d7b7",
-  "figure_count": 26,
+  "figure_count": 30,
   "legacy_visible_version_allowed": false,
   "figures": [
     {
@@ -103,6 +103,30 @@
       "stamp_source": "restamp-figures.py"
     },
     {
+      "path": "assets/figures/implementation-handoff.en.png",
+      "file_sha256": "acd70721afb13e146d62df3970ee9ccbdb48855bcd934fe633766d0b45297bd7",
+      "stamp_rect": [
+        1188,
+        958,
+        1536,
+        990
+      ],
+      "stamp_crop_rgb_sha256": "a02f0ff08e4d1152e021ed44c0b22fac29236db3d024786ec30526ebb7f493ad",
+      "stamp_source": "build-implementation-handoff-figure.js"
+    },
+    {
+      "path": "assets/figures/implementation-handoff.png",
+      "file_sha256": "21ba416c88a655576e5894149de5c31432992a11c8b5e5d2df5d8b72abb11443",
+      "stamp_rect": [
+        1188,
+        958,
+        1536,
+        990
+      ],
+      "stamp_crop_rgb_sha256": "a02f0ff08e4d1152e021ed44c0b22fac29236db3d024786ec30526ebb7f493ad",
+      "stamp_source": "build-implementation-handoff-figure.js"
+    },
+    {
       "path": "assets/figures/key-areas.en.png",
       "file_sha256": "0dc75bb601a5a09ac24fa1db0726b8c8c831f823d2ddc4c14abc2914ed2b54e7",
       "stamp_rect": [
@@ -112,7 +136,7 @@
         998
       ],
       "stamp_crop_rgb_sha256": "52e09e5f67e52c6473f9294b04c214efc6a6d7e6a7ad4f8bd7859f62b23224d8",
-      "stamp_source": "build-champion-figures.js"
+      "stamp_source": "build-delivery-figures.js"
     },
     {
       "path": "assets/figures/key-areas.png",
@@ -124,7 +148,7 @@
         998
       ],
       "stamp_crop_rgb_sha256": "52e09e5f67e52c6473f9294b04c214efc6a6d7e6a7ad4f8bd7859f62b23224d8",
-      "stamp_source": "build-champion-figures.js"
+      "stamp_source": "build-delivery-figures.js"
     },
     {
       "path": "assets/figures/land-use-structure.en.png",
@@ -176,27 +200,27 @@
     },
     {
       "path": "assets/figures/metrics-evidence.en.png",
-      "file_sha256": "637ada7b92b1d9344c781472d32d93cea69ba0fdaefa816d1a73ae282827e825",
+      "file_sha256": "9adc5a6872d042e79cb73d83bb9a934fa083c8b2bc92e93b1c1dbbed58c2bd30",
       "stamp_rect": [
         1188,
         958,
         1533,
         979
       ],
-      "stamp_crop_rgb_sha256": "6c6b54f6ce04dd9e34db97568a98f6b27926c3bbc5b3b9e1132755e10b64a457",
-      "stamp_source": "restamp-figures.py"
+      "stamp_crop_rgb_sha256": "07b565fee801825877b334757d953a9b6d57c0d3d465ed399d53bc82002b79a6",
+      "stamp_source": "build-p0-feasibility-figure.js"
     },
     {
       "path": "assets/figures/metrics-evidence.png",
-      "file_sha256": "4c9b80914c033dd18230e1a9fe273b06bdc794520310c18fcf690af773183e61",
+      "file_sha256": "930f4fb3cfe342873a264db67d5dc74ab3478b93a463a0b7ac987b5805fd98a6",
       "stamp_rect": [
         1188,
         958,
         1533,
         979
       ],
-      "stamp_crop_rgb_sha256": "6c6b54f6ce04dd9e34db97568a98f6b27926c3bbc5b3b9e1132755e10b64a457",
-      "stamp_source": "restamp-figures.py"
+      "stamp_crop_rgb_sha256": "07b565fee801825877b334757d953a9b6d57c0d3d465ed399d53bc82002b79a6",
+      "stamp_source": "build-p0-feasibility-figure.js"
     },
     {
       "path": "assets/figures/mobility-bluegreen.en.png",
@@ -221,6 +245,30 @@
       ],
       "stamp_crop_rgb_sha256": "6c6b54f6ce04dd9e34db97568a98f6b27926c3bbc5b3b9e1132755e10b64a457",
       "stamp_source": "restamp-figures.py"
+    },
+    {
+      "path": "assets/figures/operational-readiness.en.png",
+      "file_sha256": "a9f57942b1d3364295e10c265d3142e42da3ea46314e8b72dddc45aef1dc5044",
+      "stamp_rect": [
+        1188,
+        958,
+        1536,
+        990
+      ],
+      "stamp_crop_rgb_sha256": "ea2b55b31a6d809c70c4238cc3c1f74d5947e21572bd861db4cd78ac93844a31",
+      "stamp_source": "build-operational-readiness-figure.js"
+    },
+    {
+      "path": "assets/figures/operational-readiness.png",
+      "file_sha256": "7e3b729714987b10d8995486a7dd1f62c6c152d2cecea2fc27d0a91acd1a1741",
+      "stamp_rect": [
+        1188,
+        958,
+        1536,
+        990
+      ],
+      "stamp_crop_rgb_sha256": "ea2b55b31a6d809c70c4238cc3c1f74d5947e21572bd861db4cd78ac93844a31",
+      "stamp_source": "build-operational-readiness-figure.js"
     },
     {
       "path": "assets/figures/renewal-structure.en.png",

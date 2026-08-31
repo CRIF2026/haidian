@@ -15,6 +15,10 @@
  *     --source-font /path/to/NotoSansCJKsc-Medium.otf \
  *     [--license-file /path/to/noto-cjk/Sans/LICENSE]
  *
+ * Reattach and verify an existing, already sufficient subset after rebuilding
+ * report HTML (does not create or expand font glyphs):
+ *   node build-webfont.js --reuse-existing-subset
+ *
  * When --license-file is omitted, the builder reuses the hash-bound full OFL
  * text already present in noto-cjk-subset.rights.json. This keeps an offline
  * rebuild self-contained without weakening the fixed licence checksum.
@@ -30,6 +34,9 @@ const { spawnSync } = require("child_process");
 
 const HERE = __dirname;
 const PKG = path.resolve(HERE, "../../..");
+// Official noto-cjk main/Sans/OTF/SimplifiedChinese binary. Keep the checksum
+// fail-closed: a future upstream binary change must be reviewed and recorded
+// before it can alter the delivered subset.
 const SOURCE_SHA256 = "ca094f6b0001fb048ca39ddd797a0cdb0179e1e55c6561e111c49c3e6a61d7b7";
 const LICENSE_SHA256 = "6a73f9541c2de74158c0e7cf6b0a58ef774f5a780bf191f2d7ec9cc53efe2bf2";
 const FAMILY = "JZHandoverCJK";
@@ -42,6 +49,24 @@ const PAGES = [
   "visual/index.html",
   "visual/index.en.html",
 ];
+const GLYPH_SOURCES = [
+  ...PAGES,
+  "visual/assets/governance/build-p0-feasibility-figure.js",
+  "visual/assets/governance/build-implementation-handoff-figure.js",
+  "visual/assets/governance/build-operational-readiness-figure.js",
+  "visual/assets/governance/build-delivery-pdfs.js",
+];
+const REPORT_PAGES = PAGES.slice(0, 2);
+const REPORT_LINK = '<link rel="stylesheet" href="../visual/assets/governance/noto-cjk-subset.css">';
+const REPORT_STAMP = '<p class="package-stamp">PACKAGE v2.0</p>';
+const REPORT_STAMP_CSS = [
+  ".package-stamp {",
+  "  margin: 12px 0 0;",
+  "  color: var(--accent);",
+  "  font: 700 12px/1.3 ui-monospace, SFMono-Regular, Menlo, Consolas, \"Liberation Mono\", \"JZHandoverCJK\", monospace;",
+  "  letter-spacing: 0.08em;",
+  "}",
+].join("\n");
 
 function sha256(value) {
   return crypto.createHash("sha256").update(value).digest("hex");
@@ -66,11 +91,43 @@ function runPython(python, args) {
   return result.stdout;
 }
 
+/* The repository's generic Markdown renderer intentionally emits no
+ * submission-specific font or package identity. Restore this package shell
+ * deterministically before collecting glyphs so a later report rebuild cannot
+ * silently drop the offline CJK dependency or the visible v2.0 stamp. */
+function prepareReportPages() {
+  const plainStack = 'font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Microsoft YaHei", "Noto Sans CJK SC", sans-serif;';
+  const localStack = 'font-family: "JZHandoverCJK", -apple-system, BlinkMacSystemFont, "PingFang SC", "Microsoft YaHei", "Noto Sans CJK SC", sans-serif;';
+  for (const relative of REPORT_PAGES) {
+    const target = path.join(PKG, relative);
+    let text = fs.readFileSync(target, "utf8");
+    if (!text.includes(REPORT_LINK)) {
+      if (!text.includes("<title>")) throw new Error(`${relative} 缺 <title>，无法插入本地字体链接`);
+      text = text.replace("<title>", `${REPORT_LINK}\n<title>`);
+    }
+    if (!text.includes(localStack)) {
+      if (!text.includes(plainStack)) throw new Error(`${relative} 找不到可验证的 body 字体栈`);
+      text = text.replace(plainStack, localStack);
+    }
+    if (!text.includes(REPORT_STAMP_CSS)) {
+      const cssAnchor = ".translation-link a { color: var(--accent); font-weight: 700; }";
+      if (!text.includes(cssAnchor)) throw new Error(`${relative} 找不到版本标识样式锚点`);
+      text = text.replace(cssAnchor, `${REPORT_STAMP_CSS}\n${cssAnchor}`);
+    }
+    if (!text.includes(REPORT_STAMP)) {
+      const summary = /<p class="summary">[^<]*<\/p>/;
+      if (!summary.test(text)) throw new Error(`${relative} 找不到版本标识内容锚点`);
+      text = text.replace(summary, (match) => `${match}\n${REPORT_STAMP}`);
+    }
+    fs.writeFileSync(target, text);
+  }
+}
+
 function requiredCodepoints() {
   const wanted = new Set();
   for (let cp = 0x20; cp < 0x7f; cp += 1) wanted.add(cp);
   wanted.add(0x00a0);
-  for (const relative of PAGES) {
+  for (const relative of GLYPH_SOURCES) {
     const text = fs.readFileSync(path.join(PKG, relative), "utf8");
     for (const character of text) {
       const cp = character.codePointAt(0);
@@ -81,6 +138,25 @@ function requiredCodepoints() {
 }
 
 function main() {
+  const reuseExisting = process.argv.includes("--reuse-existing-subset");
+  if (reuseExisting) {
+    prepareReportPages();
+    const wanted = requiredCodepoints();
+    const coveragePath = path.join(PKG, COVERAGE_REL);
+    const coverage = JSON.parse(fs.readFileSync(coveragePath, "utf8"));
+    const covered = new Set(Array.isArray(coverage.codepoints) ? coverage.codepoints : []);
+    const missing = wanted.filter((cp) => !covered.has(cp));
+    if (missing.length) {
+      throw new Error(`现有 WOFF2 缺 ${missing.length} 个码位，必须提供 --source-font 重建：${missing.slice(0, 8).map((cp) => `U+${cp.toString(16).toUpperCase()}`).join(", ")}`);
+    }
+    coverage.pages = PAGES;
+    coverage.glyph_sources = GLYPH_SOURCES;
+    coverage.requested_codepoint_count = wanted.length;
+    coverage.reuse_verification = "existing subset reattached after report render; every currently visible codepoint is covered; no glyph payload was changed";
+    fs.writeFileSync(coveragePath, `${JSON.stringify(coverage, null, 2)}\n`);
+    process.stdout.write(`reused ${CSS_REL}; all ${wanted.length} requested codepoints are already covered\n`);
+    return;
+  }
   const source = argument("--source-font");
   const licenseFile = optionalArgument("--license-file");
   const python = process.env.PYTHON || "python3";
@@ -91,6 +167,7 @@ function main() {
   if (sha256(sourceBuffer) !== SOURCE_SHA256) throw new Error("原始 OTF sha256 不匹配");
   if (sha256(Buffer.from(licenseText)) !== LICENSE_SHA256) throw new Error("OFL 正文 sha256 不匹配");
 
+  prepareReportPages();
   const wanted = requiredCodepoints();
   const temporary = fs.mkdtempSync(path.join(os.tmpdir(), "jz-webfont-"));
   const output = path.join(temporary, "NotoSansCJKsc-Medium.subset.woff2");
@@ -154,11 +231,12 @@ function main() {
       source_filename: path.basename(source),
       source_sha256: SOURCE_SHA256,
       source_version: metadata.version,
-      source_url: "https://github.com/notofonts/noto-cjk/tree/main/Sans/OTF/SimplifiedChinese",
+      source_url: "https://raw.githubusercontent.com/notofonts/noto-cjk/main/Sans/OTF/SimplifiedChinese/NotoSansCJKsc-Medium.otf",
       copyright: metadata.copyright,
       licence: metadata.licence,
       rights_path: RIGHTS_REL,
       pages: PAGES,
+      glyph_sources: GLYPH_SOURCES,
       requested_codepoint_count: wanted.length,
       delivered_codepoint_count: metadata.codepoints.length,
       codepoints: metadata.codepoints,

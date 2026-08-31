@@ -3,10 +3,14 @@
   "rights_evidence_contract": {
     "instance": "visual/assets/source-governance-register.json",
     "asset_ledger": "visual/assets/rights-clearance-ledger.json",
-    "status": "component_licenses_declared",
+    "file_inventory": "visual/assets/file-rights-inventory.json",
+    "manifest_hash_authority": "manifest.json files[].sha256 at the final PR exact head",
+    "status": "current_exact_package_162_of_162_contributor_path_decisions_complete_under_component_specific_terms",
     "content_license": "CC-BY-4.0",
     "code_license": "MIT",
-    "osm_database_license": "ODbL-1.0"
+    "osm_database_license": "ODbL-1.0",
+    "independent_file_level_legal_audit_completed": false,
+    "scope_distinction": "The contributor inventory and component licences permit repository review, display and exact-package redistribution under their notices. They do not claim independent legal advice, reproduce citation-only external works, or authorize future installation, branding or professional implementation."
   },
   "sources": [
     {
@@ -584,6 +588,112 @@
       ]
     },
     {
+      "id": "DATA-SRC-GENERATIVE-AI-INTERIM-MEASURES",
+      "rights_evidence_id": "SRC-RIGHTS-GENERATIVE-AI-INTERIM-MEASURES",
+      "title": "生成式人工智能服务管理暂行办法",
+      "publisher": "国家互联网信息办公室等七部门",
+      "url": "https://www.cac.gov.cn/2023-07/13/c_1690898327029107.htm",
+      "path": "brief/site-package/standards/references/generative-ai-interim-measures.md",
+      "source_type": "official_public",
+      "published_date": "2023-07-13",
+      "accessed_date": "2026-08-28",
+      "authority_level": "A0",
+      "central_registry_status": "approved_formal",
+      "collection_method": "Direct read of the repository-local attributed Markdown snapshot and cross-check against the official CAC page; no page text, image, logo or layout is redistributed in the package.",
+      "temporal_scope": "Measures published on 2023-07-13 and effective from 2023-08-15; later amendments, interpretations and service-specific determinations were not independently audited.",
+      "spatial_scope": "Services using generative AI to provide generated text, images, audio or video to the public within mainland China; not every AI application, urban design project or non-generative system.",
+      "rights_or_reuse": "citation_only_official_public_text_and_repository_snapshot; no original page media redistributed; terms_not_independently_audited",
+      "transformations": [
+        "Article 2 scope and Article 15 complaint/reporting duties were translated into a bounded G1-entry requirement for relevant public-facing generative-service candidates."
+      ],
+      "known_limitations": [
+        "Article 14 concerns unlawful-content and service handling and is not treated as a general user opt-out right.",
+        "Article 15 does not set a numeric statutory response deadline; a project-specific feedback timeframe must be preregistered rather than invented.",
+        "Article 17 security-assessment and filing references are not generalized beyond services with public-opinion or social-mobilization capacity.",
+        "This record is not legal advice, proof of filing, security assessment, approval or service compliance."
+      ],
+      "usable_for": [
+        "public-facing generative-service applicability boundary",
+        "complaint and reporting channel requirement",
+        "G1 preregistration question"
+      ],
+      "not_usable_for": [
+        "general AI opt-out right",
+        "numeric statutory response deadline",
+        "proof of filing or security assessment",
+        "project approval or legal opinion"
+      ]
+    },
+    {
+      "id": "DATA-SRC-BARRIER-FREE-ENVIRONMENT-LAW",
+      "rights_evidence_id": "SRC-RIGHTS-BARRIER-FREE-ENVIRONMENT-LAW",
+      "title": "中华人民共和国无障碍环境建设法",
+      "publisher": "全国人民代表大会常务委员会",
+      "url": "https://www.gov.cn/yaowen/liebiao/202306/content_6888910.htm",
+      "path": "brief/site-package/standards/references/barrier-free-environment-law.md",
+      "source_type": "official_public",
+      "published_date": "2023-06-28",
+      "accessed_date": "2026-08-28",
+      "authority_level": "A0",
+      "central_registry_status": "approved_formal",
+      "collection_method": "Direct read of the repository-local attributed Markdown snapshot and cross-check against the official government publication; no page text, image, logo or layout is redistributed in the package.",
+      "temporal_scope": "Law adopted on 2023-06-28 and effective from 2023-09-01; venue-specific applicability and compliance were not independently determined.",
+      "spatial_scope": "Article 39 human-operated service boundary for public service venues handling medical, social-security, financial or living-payment services; not every public space or digital interface.",
+      "rights_or_reuse": "citation_only_official_public_text_and_repository_snapshot; no original page media redistributed; terms_not_independently_audited",
+      "transformations": [
+        "Article 39 was mapped only to existing enterprise/public-service task candidates whose service matter falls within the listed contexts."
+      ],
+      "known_limitations": [
+        "The listed human-service requirement is not generalized to every park, street, event or interface.",
+        "The law does not prove the accessibility status of existing facilities or the compliance of this conceptual proposal.",
+        "Venue-specific compliance still requires competent legal, accessibility and service review."
+      ],
+      "usable_for": [
+        "listed public-service human-operated service baseline",
+        "accessibility handoff question"
+      ],
+      "not_usable_for": [
+        "general human-service mandate for every space",
+        "existing-facility accessibility result",
+        "venue-specific legal conclusion"
+      ]
+    },
+    {
+      "id": "DATA-SRC-ELDERLY-SMART-TECH-PLAN-2020-45",
+      "rights_evidence_id": "SRC-RIGHTS-ELDERLY-SMART-TECH-PLAN-2020-45",
+      "title": "国务院办公厅关于印发《关于切实解决老年人运用智能技术困难实施方案》的通知（国办发〔2020〕45号）",
+      "publisher": "国务院办公厅",
+      "url": "https://www.gov.cn/zhengce/content/2020-11/24/content_5563804.htm",
+      "path": "brief/site-package/standards/references/elderly-smart-tech-plan-2020-45.md",
+      "source_type": "official_public_background",
+      "published_date": "2020-11-24",
+      "accessed_date": "2026-08-28",
+      "authority_level": "A0_background_only",
+      "central_registry_status": "approved_background_only",
+      "collection_method": "Direct read of the repository-local attributed Markdown snapshot and official policy page; no page text, image, logo or layout is redistributed in the package.",
+      "temporal_scope": "National policy notice published in 2020; current local implementation, service-provider compliance and site-specific demand were not audited.",
+      "spatial_scope": "National background for traditional service channels operating in parallel with smart services across high-frequency tasks; no Haidian site placement or statutory project control.",
+      "rights_or_reuse": "citation_only_official_public_policy_and_repository_snapshot; no original page media redistributed; terms_not_independently_audited",
+      "transformations": [
+        "The parallel-channel direction was used as background support for the proposal's existing non-AI same-task route and was not promoted to a formal local control."
+      ],
+      "known_limitations": [
+        "Background-only status cannot support a formal compliance conclusion.",
+        "The source supplies no local elderly usage figures, service coverage, staffing or site-specific control.",
+        "It does not prove that any Haidian service has implemented the policy."
+      ],
+      "usable_for": [
+        "background context for parallel traditional and smart channels",
+        "high-frequency service task framing"
+      ],
+      "not_usable_for": [
+        "local implementation conclusion",
+        "site-specific statutory control",
+        "local elderly demand or coverage metric",
+        "service-provider compliance evaluation"
+      ]
+    },
+    {
       "id": "JZ-PARK-2023",
       "rights_evidence_id": "SRC-RIGHTS-JZ-PARK-2023",
       "title": "京张铁路遗址公园（一期）全面建成开放",
@@ -954,7 +1064,7 @@
       "rights_evidence_id": "SRC-RIGHTS-PORTABLE-TEMPORAL",
       "title": "便携式时间博物馆：可纠错、无屏可达的时间教育线（概念原型）",
       "publisher": "xyh202131",
-      "path": "proposal.md#time-museum-section",
+      "path": "proposal.md#后台证据与专业交接一个入口五步追证",
       "source_type": "conceptual_proposal",
       "accessed_date": "2026-08-12",
       "authority_level": "submission_author",
@@ -1032,7 +1142,7 @@
       "rights_evidence_id": "SRC-RIGHTS-MISSION-ECONOMY-PROPOSAL",
       "title": "公共任务经济：问题驱动的产业与人才转化（概念章节）",
       "publisher": "xyh202131",
-      "path": "proposal.md#mission-economy-section",
+      "path": "proposal.md#统筹研究范围产业与未来城市研究",
       "source_type": "conceptual_proposal",
       "accessed_date": "2026-08-12",
       "authority_level": "submission_author",
@@ -1113,7 +1223,7 @@
       "rights_evidence_id": "SRC-RIGHTS-CIVIC-OPERATIONS-PROPOSAL",
       "title": "长期公共共同体运营：普通日常不断轨（双语概念章节）",
       "publisher": "xyh202131",
-      "path": "proposal.md#long-term-civic-operations-section",
+      "path": "proposal.md#四条后台合同只服务八个既有项目",
       "source_type": "conceptual_proposal",
       "accessed_date": "2026-08-12",
       "authority_level": "submission_author",
@@ -1193,7 +1303,7 @@
       "rights_evidence_id": "SRC-RIGHTS-REVIEW-HANDOFF-PROPOSAL",
       "title": "评审收束与专业深化交接：冻结骨架，只替换现实缺口（双语概念章节）",
       "publisher": "xyh202131",
-      "path": "proposal.md#review-synthesis-professional-handoff",
+      "path": "proposal.md#后台证据与专业交接一个入口五步追证",
       "source_type": "conceptual_proposal",
       "accessed_date": "2026-08-12",
       "authority_level": "submission_author",
@@ -1219,7 +1329,7 @@
       "rights_evidence_id": "SRC-RIGHTS-ORDINARY-LIFE-PROPOSAL-R12",
       "title": "普通生活空间场景册：先看人怎样使用，再看系统怎样叠加（双语概念章节）",
       "publisher": "xyh202131",
-      "path": "proposal.md#ordinary-life-spatial-scenes",
+      "path": "proposal.md#一人一事一处先跟随普通任务再看系统叠加",
       "source_type": "conceptual_proposal",
       "accessed_date": "2026-08-13",
       "authority_level": "submission_author",

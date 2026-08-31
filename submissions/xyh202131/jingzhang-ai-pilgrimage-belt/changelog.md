@@ -1,80 +1,58 @@
 # 方案迭代记录 / Changelog
 
-## v61.1 - 2026-08-26
+## v101.0 - 2026-08-31
 
-**离线报告 CJK 阻断修复 / Offline Report CJK Blocker Repair**
+**审阅历史收束 / Review-history Convergence**
 
-- 复核 PR #4036 当前评审的唯一参与者可控阻断项，建立修复前 RED：`report/proposal.html` 与 `report/proposal.en.html` 均未接入包内 `visual/assets/offline-cjk-font.css`，而两份 visual 已接入；问题是报告导出链丢失字体链接，不是缺少字体子集。
-- 在两份报告原路径接入同一 OFL WOFF2 子集，不改正文、图件、PDF、visual 信息结构或事实。字体 cmap 对四个最终 HTML 可见非 ASCII 字符的覆盖为 1015/1015、19/19、249/249、3/3，缺失 0。
-- 使用全新 Chromium 内存配置经 `127.0.0.1` 本地静态服务打开中英文报告；`document.fonts.status=loaded`、计算字体为 `JZ Noto CJK Offline`、核心中文串字体检查为真，人工截图未见方框。唯一控制台错误为未提供非必需 `favicon.ico`，不影响报告内容或字体。
-- 本修复不增加媒体、页面、主张或成熟度，不改变 geometry、`metrics.json`、12/8/3/36、G0/NO-GO、provisional、现实结果 0、批准 0、专业接责 0、独立现实复测 0 或权利边界。
+- 已有能力：v100 已闭合前序评审出处；当前包同时具备 30 秒、3 分钟、15 分钟和追证路线，四份 PDF 全页图谱、双语 report/visual、CJK 离线字体与结构化证据入口均可直接审阅。
+- 真实缺口：修复前，v99—v59 的 41 轮完整双语记录占 `changelog.md` 657 行、约 123 KB；重复的冻结边界和未知项说明把当前状态与设计主线埋在维护流水中。自动闸门只检查文件存在与大小，不判断历史日志的信息密度。
+- 必须冻结：冻结“双轨京张 / Twin-Track Jing-Zhang”、三种不可互换原型、JZ-AIOS、G0—G3、四轴、三载体、证据门、权利边界及 12/8/3/36；不改 proposal、report/visual、图件、媒体、四份 PDF、geometry、metrics、来源判断、现实状态或 0/8 人工双语签署。
+- 本轮实施：保留 v100 和 v58.5—v58.0 全文，把 v99—v59 收束为按主题分组、逐版本可定位的双语历史索引；完整原文继续可从 `main@7fa55c6827bdf8ca52c0ff213cf1b352cc03c3f3` 的同一路径逐字恢复。该收束不刷新证据日期、外部评审、权利、现场、批准或成熟度。官方几何、批准、现场基线与结果、现实责任、预算、恢复时间、公众反馈、独立法律/商标审查和人工双语签署继续为 unknown、0、未提供或 NO-GO。
 
-- Reproduced the sole contributor-controlled blocker in the current PR #4036 review. Before repair, both `report/proposal.html` and `report/proposal.en.html` omitted the package-local `visual/assets/offline-cjk-font.css`, while both visual pages already loaded it. The fault was a dropped report-font link, not a missing subset.
-- Connected both reports to the same OFL WOFF2 subset in place, without changing proposal text, figures, PDFs, visual information architecture or facts. The font cmap covers 1015/1015, 19/19, 249/249 and 3/3 visible non-ASCII characters across the four final HTML surfaces, with zero missing glyphs.
-- Opened both reports in a fresh in-memory Chromium profile through a `127.0.0.1` local static server. `document.fonts.status=loaded`, the computed family is `JZ Noto CJK Offline`, the core Chinese-string font check is true, and screenshot inspection finds no tofu. The only console error is the non-required missing `favicon.ico`, unrelated to report content or fonts.
-- This repair adds no media, page, claim or maturity upgrade and changes no geometry, `metrics.json`, 12/8/3/36 count, G0/NO-GO, provisional status, zero real outcomes, zero approvals, zero accepted professional duties, zero independent real-world retests or rights boundary.
+- Existing capability: v100 closed predecessor-review provenance. The current package already exposes 30-second, three-minute, 15-minute and evidence-tracing routes, four all-page PDF atlases, paired bilingual reports/visuals, an offline CJK font and structured evidence entrances.
+- Real gap: before repair, 41 full bilingual records from v99 through v59 occupied 657 lines and about 123 KB of `changelog.md`. Repeated frozen-boundary and unknown-state paragraphs buried the current state and design through-line inside maintenance chronology. Automated gates check file presence and size, not history-log information density.
+- Frozen boundary: Twin-Track Jing-Zhang, the three non-interchangeable prototypes, JZ-AIOS, G0–G3, four axes, three carriers, evidence gates, rights boundaries and 12/8/3/36 remain frozen. Proposals, report/visual pages, figures, media, all four PDFs, geometry, metrics, source judgements, real-world status and the unsigned 0/8 human bilingual review are unchanged.
+- Implemented this round: retained v100 and v58.5–v58.0 in full, while converging v99–v59 into a bilingual, theme-grouped index with every revision still locatable. The complete text remains recoverable byte-for-byte from the same path at `main@7fa55c6827bdf8ca52c0ff213cf1b352cc03c3f3`. This convergence refreshes no evidence date, external review, right, field fact, approval or maturity. Official geometry, approvals, field baselines and outcomes, real accountability, budgets, recovery time, public feedback, independent legal/trademark review and human bilingual sign-off remain unknown, zero, not provided or NO-GO.
 
-## v61.0 - 2026-08-26
+## v100.0 - 2026-08-30
 
-**评审可见信息效率 / Reviewer-visible Information Efficiency**
+**前序评审出处闭合 / Predecessor-review Provenance Closure**
 
-- 在 canonical `main` `48a4d3cfe6af8b0bd42964e5a38fbeae1698e702` 上确认前序 PR #4033 已合并、进入祖先链且同包开放 PR 为 0。前序 AI 评审为 93/100，唯一投稿方可控的持续弱项是“信息密度偏高、概念重复”，因此本轮只修复人类阅读层，不新增方案方向。
-- 先建立可复现 RED 合同：中文/英文正文分别为 51,149 / 135,381 字符；高频重复为“连续日常轨”12/9、“非 AI”45/60、`G0` 50/50、`NO-GO` 22/23、“专业交接”9/9。合同同时锁定 13 章顺序、全部图件位置、全部唯一 source/standard/depth/data/metric/assumption 标记和核心真实性句。
-- 将开篇、三层框架、指标、风险和后台追证改成“一处主答案 + 按需证据”，删除轮次说明和同义重复；正文降至 45,495 / 116,491 字符，分别缩短 11.0% / 14.0%。高频边界词全部低于预设上限，而来源、假设、指标、图件和 13 章结构零丢失。
-- 保持“双轨京张”、三种不可互换原型、普通—验证—故障—恢复、JZ-AIOS、12/8/3/36、G0/NO-GO、临时边界、现实结果 0、公共同权、权利边界和专业否决的实质等价；未改变 geometry、`metrics.json`、visual、图件、媒体或 A3/A0 页数。
-- 本轮无新媒体。后续独立人工双语确认、官方几何、现场基线、审批、现实责任接受、独立现实复测、法律/商标审查继续为外部开放条件，不以更短正文换取状态升级。
+- 已有能力：R99 已把证据内容日期与导航绑定日期解耦；PR #4278 在 exact head `eb1ff0d05a5be8e81fd2554342ea9ebba69b57db` 完成 96/100、无阻断项评审，并以 merge SHA `6d4c930f8302c433f961081fcda741a1bf00ac30` 进入实时 canonical main。
+- 真实缺口：修复前，当前交接索引及其包级镜像仍把 PR #4272 / R96 写成“前序评审”，落后于已合并的 R97—R99；自动 gate 不比较前序评审出处，审阅者可能把三轮前的 exact head 误读为最近评审依据。
+- 必须冻结：冻结“双轨京张 / Twin-Track Jing-Zhang”、三种不可互换原型、JZ-AIOS、G0—G3、四轴、三载体、证据门、权利边界及 12/8/3/36；不改 proposal、report/visual 页面、图件、媒体、四份 PDF、geometry、metrics、来源判断、现实状态或 0/8 人工双语签署。
+- 本轮实施：把交接索引、包级镜像和三区矩阵导航回链统一绑定到 `JZ-REVIEW-HANDOFF-R100.0`，并把前序评审精确更新为 PR #4278 的 reviewed head 与 canonical merge SHA。该记录只证明前序版本的仓库评审，不预填新 exact head 的外部结论，也不建立矩阵证据、时效性、成熟度、权利、现场事实或批准。官方几何、批准、现场基线与结果、现实责任、预算、恢复时间、公众反馈、独立法律/商标审查和人工双语签署继续为 unknown、0、未提供或 NO-GO。
 
-- Confirmed on canonical `main` `48a4d3cfe6af8b0bd42964e5a38fbeae1698e702` that predecessor PR #4033 was merged and in the ancestry with zero same-package open PRs. Its 93/100 AI review left one contributor-controllable weakness: dense information and repeated concepts. This round therefore repairs only the human reading layer and adds no design direction.
-- Established a reproducible RED contract first. Chinese/English proposals measured 51,149 / 135,381 characters, with repeated key terms counted before editing. The contract simultaneously froze the 13-chapter order, every figure position, every unique source/standard/depth/data/metric/assumption marker, and the core truth-boundary sentences.
-- Re-edited the opening, scope framework, metrics, risk and back-stage trace as “one primary answer plus evidence on demand,” removing round meta-copy and synonymous restatement. The texts now measure 45,495 / 116,491 characters, 11.0% / 14.0% shorter. Repeated boundary terms stay below their preset ceilings while evidence markers, figures and formal structure remain complete.
-- Preserved Twin-Track Jing-Zhang, three non-interchangeable prototypes, Ordinary—Verification—Fault—Recovery, JZ-AIOS, 12/8/3/36, G0/NO-GO, provisional geometry, zero real outcomes, public parity, rights boundaries and professional veto with material bilingual equivalence. Geometry, `metrics.json`, visual, figures, media and A3/A0 page counts are unchanged.
-- No new media was added. Independent human bilingual confirmation, official geometry, field baselines, approvals, accepted real responsibility, independent real-world retesting and legal/trademark review remain external open conditions; shorter prose does not upgrade status.
+- Existing capability: R99 separated the evidence-content date from the navigation-binding date. PR #4278 completed a 96/100 review with no blocking modification on exact head `eb1ff0d05a5be8e81fd2554342ea9ebba69b57db` and entered live canonical main as merge SHA `6d4c930f8302c433f961081fcda741a1bf00ac30`.
+- Real gap: before repair, the current handoff index and its package mirror still named PR #4272 / R96 as the predecessor review, lagging the merged R97-R99 sequence. Automated gates do not compare predecessor-review provenance, so a reviewer could mistake a three-round-old exact head for the latest reviewed basis.
+- Frozen boundary: Twin-Track Jing-Zhang, the three non-interchangeable prototypes, JZ-AIOS, G0-G3, four axes, three carriers, evidence gates, rights boundaries and 12/8/3/36 remain frozen. Proposals, report/visual pages, figures, media, all four PDFs, geometry, metrics, source judgements, real-world status and the unsigned 0/8 human bilingual review are unchanged.
+- Implemented this round: aligned the handoff index, package mirror and key-area matrix navigation backlink on `JZ-REVIEW-HANDOFF-R100.0`, and updated predecessor-review provenance to PR #4278's reviewed head and canonical merge SHA. This records only the predecessor package's repository review; it does not prefill an external verdict for the new exact head or establish matrix evidence, freshness, maturity, rights, field truth or approval. Official geometry, approvals, field baselines and outcomes, real accountability, budgets, recovery time, public feedback, independent legal/trademark review and human bilingual sign-off remain unknown, zero, not provided or NO-GO.
 
-## v60.0 - 2026-08-26
+## v99.0—v59.0 - 2026-08-30—2026-08-25
 
-**出版可访问性与 A0 远读重构 / Publication Accessibility and A0 Distance-read Recomposition**
+**聚焦深化索引 / Focused-development index**
 
-- 在最新 canonical `main` `eab8b0c0f6c653992b46f764f4fe435fb4758524` 上复跑串行门和基线；前序 PR #3998 已合并并进入祖先链，同包开放 PR 为 0。修复前自动证据确认：390px 中英文 visual 主导航分别需要 631px / 706px，四份 PDF 共 44 页均无可提取正文。
-- 将中英文 visual 的六项主导航在窄屏改为 3×2 完整网格，保留 44px 触达高度、键盘焦点、无 JavaScript、减少动态、打印和静态回退；390px 实测不再横向溢出。
-- 在不增加页数、不改变可见正文事实的前提下，从同一确定性源重建 A3 14+14 页与 A0 8+8 页。可见标签继续由本地 Noto CJK 栅格层确定性呈现，同时嵌入 OFL 最小语义字形子集；44/44 页均有可搜索/复制文本、书签和元数据，但不声明 tagged PDF/UA 或无障碍达标。
-- A0 第 6 板收束为“项目门—气候维护—全年运营”，第 7 板收束为“证据图—专业交接—四条边界”，第 8 板改为远距离可读的唯一结论与四项状态裁决；彩色缩略图、灰度、全尺寸和中英配对人工 QA 未见裁切、越界、方框或警示弱化。
-- 两次独立新进程构建逐字节一致：中文 A3 `8d9958e516a3e73882e71b9472fcc3829aa4b4cb8580b18e42a75682835626c4`，英文 A3 `66361087a18951e3ef5fb35bb575dd1f41c02d342729f5d9b88126a77ef11e5e`，中文 A0 `a1fd334fca8112e362a9a90e05e590b8c6927a82f4fa9ed8df28d4b35e398291`，英文 A0 `b1daad98af2123b2944a35f4e4dd53e276b8605577078a0a0f1b4d372073238e`。
-- 本轮无新媒体，不改变 geometry、`metrics.json`、12/8/3/36、G0/NO-GO、provisional、现实结果 0、批准 0、专业接责 0、独立现实复测 0 或未来装置/品牌/专业实施边界。
+为让审阅者先看到当前状态，以下 41 轮重复长篇记录收束为主题索引。每个版本号与主题均保留；完整中英文原文可从 `main@7fa55c6827bdf8ca52c0ff213cf1b352cc03c3f3` 的本文件恢复。本索引不改变当时事实、边界、验证结果或提交历史。
 
-- Re-ran the serial gate and baseline on canonical `main` `eab8b0c0f6c653992b46f764f4fe435fb4758524`. Predecessor PR #3998 is merged and in the ancestry, with zero same-package open PRs. Automated before-evidence confirmed 631px / 706px navigation widths at a 390px viewport and zero extractable body text across all 44 PDF pages.
-- Reflowed the six-item bilingual visual navigation into a complete 3×2 narrow-screen grid with 44px targets, keyboard focus, zero JavaScript, reduced-motion, print and static-fallback behavior retained. The 390px tests no longer overflow horizontally.
-- Rebuilt the 14+14 A3 pages and 8+8 A0 boards from one deterministic source without adding pages or changing visible factual claims. Visible labels remain deterministic local Noto CJK raster layers, while an OFL minimal semantic glyph subset is embedded. All 44 pages now expose searchable/copyable text, outlines and metadata; tagged PDF/UA or accessibility conformance is not claimed.
-- Re-composed A0 board 6 as project gate - climate maintenance - year-round operations, board 7 as evidence picture - professional handoff - four boundaries, and board 8 as one distance-readable conclusion plus four state rulings. Color thumbnail, grayscale, full-size and bilingual-pair human QA found no clipping, overflow, tofu or weakened warnings.
-- Two independent fresh processes produced byte-identical PDFs: ZH A3 `8d9958e516a3e73882e71b9472fcc3829aa4b4cb8580b18e42a75682835626c4`; EN A3 `66361087a18951e3ef5fb35bb575dd1f41c02d342729f5d9b88126a77ef11e5e`; ZH A0 `a1fd334fca8112e362a9a90e05e590b8c6927a82f4fa9ed8df28d4b35e398291`; EN A0 `b1daad98af2123b2944a35f4e4dd53e276b8605577078a0a0f1b4d372073238e`.
-- No new media was added. Geometry, `metrics.json`, 12/8/3/36, G0/NO-GO, provisional status, zero real results, zero approvals, zero accepted professional duties, zero independent real-world retests and future installation/branding/professional-implementation boundaries are unchanged.
+- **v99—v89：证据与交接导航。** v99 证据日期/导航日期解耦；v98 三区矩阵导航出处；v97 索引角色边界；v96 完整性声明；v95 镜像一致性；v94 双语精确路由；v93 当前包验证合同；v92 深层结构引用；v91 片段路由；v90 离线追证入口；v89 当前交接摘要。
+- **v88—v78：长报告的键盘与语义阅读。** v88 章节落点反馈；v87 章节焦点交接；v86 主导航焦点交接；v85 页内定位反馈；v84 高频控件触达；v83 媒体文字替代直达；v82 小屏表格提示；v81 审阅工具栏；v80 章节索引；v79 评审深链；v78 离线语义导航。
+- **v77.1—v72：出版入口与全页可见性。** v77.1 报告离线 CJK 修复；v77 四份 PDF 全页图谱；v76 首屏白话状态；v75 原型深链焦点；v74 角色卡精确落点；v73 角色到任务入口；v72 完整审阅包首屏。
+- **v71—v67：渐进阅读与审计入口。** v71 渐进阅读路线；v70 三区同屏判读；v69 人本任务 demo；v68 评审状态与 exact head 绑定；v67 审计入口闭合。
+- **v66.1—v64：政策、权利与接责。** v66.1 精确包权利计数；v66 政策—公共任务防误读层；v65.1 精确包权利消歧；v65 独立人工复核交接；v64 可拒绝的责任接收门。
+- **v63—v61：人本前台与出版身份。** v63 一人一事一处；v62.1 R62 离线 CJK 回归；v62 出版身份与首屏一致性；v61.1 离线报告 CJK 阻断修复；v61 评审可见信息效率。
+- **v60：出版可访问性。** A0 远读重构与出版可访问性收束。
+- **v59.1—v59：权利与四态体验。** v59.1 当前精确包权利闭合；v59 四态空间体验化。
 
-## v59.1 - 2026-08-25
+To put the current state first, the 41 repeated long-form records below are converged into a thematic index. Every revision number and subject remains listed; the complete Chinese and English text is recoverable from this file at `main@7fa55c6827bdf8ca52c0ff213cf1b352cc03c3f3`. This index changes no historical fact, boundary, validation result or commit history.
 
-**当前精确投稿包权利闭合 / Current Exact-package Rights Closure**
-
-- 关闭评审指出的状态矛盾：当前精确投稿包 157/157 个路径均补齐作者/权利人、来源、许可或处理、署名、变更、再分发和例外列，并明确可按组件条款用于仓库评审、展示与再分发；不存在单一整包许可。
-- CC BY 4.0、MIT、ODbL、OFL、citation-only 与仓库临时输入边界保持分立；独立法律意见、独立逐文件法律审计和商标审查仍未提供，未来公共装置、品牌发布和专业实施仍未授权。
-- 同步中英文 proposal、visual、报告、来源、图件、A3/A0、权利台账、发布矩阵、Agent、双语等价、self-check 与 manifest；geometry、metrics、12/8/3/36、G0/NO-GO、provisional、现实结果 0 和 H01—H07 未接受均未改变。
-
-- Closed the review-identified state contradiction. All 157/157 paths in the current exact package now record author/rightsholder, source, licence or handling, attribution, transformation, redistribution and exceptions. The package may be reviewed, displayed and redistributed under component-specific terms; no single package-wide licence exists.
-- CC BY 4.0, MIT, ODbL, OFL, citation-only and repository provisional-input boundaries remain separate. Independent legal advice, independent file-level legal audit and trademark review remain absent; future public installation, brand release and professional implementation remain unauthorized.
-- Synchronized bilingual proposals, visual, reports, sources, figures, A3/A0, rights ledger, release matrix, Agent, bilingual equivalence, self-check and manifest. Geometry, metrics, 12/8/3/36, G0/NO-GO, provisional, zero real results and unaccepted H01—H07 are unchanged.
-
-## v59.0 - 2026-08-25
-
-**四态空间体验化 / Four-state Spatial Experience**
-
-- 将既有“普通—验证—故障—恢复”关系重绘为一条连续普通地面、旁侧验证、只停验证对象的故障点和回到普通任务的恢复序列；三处原型继续以平行带/旁侧庭、一街两院四撤回点、四向十字/路外厅区分。
-- 新增投稿方原创概念封面、54 秒无声双语动态图解、双语 VTT、双语文字稿和镜头合同；54 秒仅为编辑节奏。visual 保持六项导航、零 JavaScript、无远程依赖、无自动播放，并始终显示静态回退。
-- 从同一确定性源重建中英文 A3 各 14 页、A0 各 8 页；两次新进程四份 PDF 字节一致，四态新图已进入指定页，44 页机器与人工 QA 通过。
-- 媒体由 Python/Pillow/Chrome/FFmpeg 与登记字体本地确定性生成，不访问网络、不调用模型 API、不含外部媒体、音乐、配音或音轨。逐路径权利、自编来源、双语等价和专业交接记录已同步。
-- 本轮不新增事实、场景、项目、重点区、治理合同或成熟度；geometry、`metrics.json`、12/8/3/36、G0 / NO-GO、provisional、现实结果 0、H01—H07 未接受、`not_fully_cleared`、独立清权 0 与商标审查 0 均不变。
-
-- Rebuilt Ordinary—Verification—Fault—Recovery as continuous ordinary ground, side verification, a fault point that stops only proof objects, and recovery back to the ordinary task. The three prototypes remain distinct as parallel bands/side court, one street/two courts/four withdrawals, and four-way cross/off-route hall.
-- Added a contributor-authored conceptual cover, a silent 54-second bilingual motion diagram, bilingual VTT, bilingual transcript and shot contract; 54 seconds is editorial pacing only. The visual retains six navigation items, zero JavaScript, no remote dependency, no autoplay, and an always-visible static fallback.
-- Rebuilt the 14+14 A3 pages and 8+8 A0 boards from one deterministic source. Two fresh processes produced byte-identical PDFs; the R59 storyboard is embedded in the designated pages and all 44 pages passed machine and human-view QA.
-- Media was produced locally and deterministically with Python/Pillow/Chrome/FFmpeg and the registered font, with no network, model API, external media, music, voice or audio stream. Path-level rights, the package-authored source, bilingual equivalence and professional handoff records are synchronized.
-- This revision adds no fact, scenario, project, key area, governance contract or maturity claim. Geometry, `metrics.json`, 12/8/3/36, G0 / NO-GO, provisional, real results 0, unaccepted H01—H07, `not_fully_cleared`, independent clearance 0 and trademark review 0 remain unchanged.
+- **v99–v89: evidence and handoff navigation.** v99 evidence/navigation dates; v98 key-area matrix provenance; v97 index role boundary; v96 integrity claim; v95 mirror coherence; v94 exact bilingual routes; v93 current-package validation contract; v92 deep structured references; v91 fragment routes; v90 offline evidence entrance; v89 current handoff summary.
+- **v88–v78: keyboard and semantic reading for long reports.** v88 destination feedback; v87 chapter focus transfer; v86 primary-navigation focus transfer; v85 in-page orientation; v84 frequent-control targets; v83 direct text alternatives; v82 narrow-screen table cue; v81 review toolbar; v80 chapter index; v79 review deep link; v78 offline semantic navigation.
+- **v77.1–v72: publication entrances and all-page visibility.** v77.1 offline report CJK repair; v77 four all-page PDF atlases; v76 plain-language first view; v75 prototype deep-link focus; v74 persona exact destinations; v73 persona-to-task entry; v72 complete review pack first view.
+- **v71–v67: progressive reading and audit entrances.** v71 progressive routes; v70 three-place one-board reading; v69 human-task demo; v68 exact-head review binding; v67 audit entrance closure.
+- **v66.1–v64: policy, rights and duty acceptance.** v66.1 exact-package rights count; v66 policy-to-public-task firewall; v65.1 exact-package rights disambiguation; v65 independent-human-review handoff; v64 refusable duty-acceptance gate.
+- **v63–v61: human frontstage and publication identity.** v63 one person/one task/one place; v62.1 R62 offline CJK regression; v62 publication identity and first-screen coherence; v61.1 offline-report CJK blocker repair; v61 reviewer-visible information efficiency.
+- **v60: publication accessibility.** A0 distance-read recomposition and publication-accessibility convergence.
+- **v59.1–v59: rights and four-state experience.** v59.1 current exact-package rights closure; v59 four-state spatial experience.
 
 ## v58.5 - 2026-08-24
 

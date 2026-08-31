@@ -1,25 +1,31 @@
 {
   "schema_version": "2.0",
-  "inventory_id": "JZ-FILE-RIGHTS-INVENTORY-R60",
-  "as_of": "2026-08-26",
+  "inventory_id": "JZ-FILE-RIGHTS-INVENTORY-R79-0",
+  "as_of": "2026-08-30",
   "status": "current_exact_package_cleared_for_repository_review_display_and_redistribution_under_component_specific_terms",
   "scope": "Every path in the current exact submission distribution tree at this revision.",
-  "path_count": 157,
-  "covered_path_count": 157,
+  "path_count": 162,
+  "covered_path_count": 162,
   "coverage_ratio": 1.0,
+  "manifest_hash_binding": {
+    "manifest": "manifest.json",
+    "binding_rule": "The final PR exact head binds the manifest Git blob; manifest files[].sha256 binds each of the 161 non-manifest paths. The manifest path is bound by the exact head and omits a circular self-hash.",
+    "manifest_path_count": 162,
+    "hash_bearing_non_manifest_path_count": 161
+  },
   "artifact_class_counts": {
     "citation_metadata": 2,
     "composite_publication": 4,
     "contributor_caption_track": 1,
     "contributor_code": 1,
     "contributor_concept_geometry": 6,
-    "contributor_document_or_structured_evidence": 47,
+    "contributor_document_or_structured_evidence": 48,
     "contributor_media_poster": 1,
     "contributor_rights_metadata": 1,
     "contributor_silent_concept_video": 1,
     "contributor_transcript_and_rights_note": 1,
     "contributor_vector_figure": 40,
-    "deterministic_raster_figure": 44,
+    "deterministic_raster_figure": 48,
     "embedded_font_subset_and_wrapper": 1,
     "mixed_context_database_and_concept_layer": 1,
     "offline_publication_html": 4,
@@ -32,7 +38,7 @@
     "trademark_search": false,
     "future_public_installation_branding_and_professional_implementation": "not_authorized_requires_scope_specific_review_approval_and_contracts",
     "new_model_generated_media_count": 0,
-    "contributor_authored_deterministic_media_path_count": 4,
+    "contributor_authored_deterministic_media_path_count": 8,
     "rule": "The complete contributor inventory closes the current exact repository package disposition under component-specific terms. It is not independent legal advice and does not authorize future installation, branding or professional implementation, nor prove official data, approval, field performance, public response, accessibility compliance or third-party consent."
   },
   "entries": [
@@ -896,7 +902,7 @@
       "source_or_provenance": "Contributor-authored SVG/concept content rasterized locally; no model-generated media retained",
       "applicable_license_or_handling": "CC BY 4.0 for contributor-authored visual content",
       "attribution_requirement": "Credit Twin-Track Jing-Zhang / 双轨京张 and xyh202131, link CC BY 4.0 and indicate changes.",
-      "transformation_record": "Deterministic local raster export of the paired contributor-authored SVG/concept source; no external image or model output added.",
+      "transformation_record": "R63 deterministic local raster export of the paired contributor-authored human-task SVG; no external image or model output added.",
       "redistribution_decision": "allowed_under_CC_BY_4_0_with_attribution_and_change_notice",
       "exceptions_or_limits": "Keep conceptual, G0, provisional and not-to-scale labels where applicable"
     },
@@ -912,7 +918,7 @@
       "source_or_provenance": "Submission author with AI-assisted deterministic SVG drafting",
       "applicable_license_or_handling": "CC BY 4.0 for contributor-authored visual content",
       "attribution_requirement": "Credit Twin-Track Jing-Zhang / 双轨京张 and xyh202131, link CC BY 4.0 and indicate changes.",
-      "transformation_record": "Contributor-authored deterministic SVG composition from package contracts and bounded sources.",
+      "transformation_record": "R63 contributor-authored deterministic SVG rebuild foregrounding arrive, understand, complete, correct or withdraw, and leave across three place-specific task variants; no external image or model output added.",
       "redistribution_decision": "allowed_under_CC_BY_4_0_with_attribution_and_change_notice",
       "exceptions_or_limits": "Keep conceptual, G0, provisional and not-to-scale labels where applicable"
     },
@@ -928,7 +934,7 @@
       "source_or_provenance": "Contributor-authored SVG/concept content rasterized locally; no model-generated media retained",
       "applicable_license_or_handling": "CC BY 4.0 for contributor-authored visual content",
       "attribution_requirement": "Credit Twin-Track Jing-Zhang / 双轨京张 and xyh202131, link CC BY 4.0 and indicate changes.",
-      "transformation_record": "Deterministic local raster export of the paired contributor-authored SVG/concept source; no external image or model output added.",
+      "transformation_record": "R63 deterministic local raster export of the paired contributor-authored human-task SVG; no external image or model output added.",
       "redistribution_decision": "allowed_under_CC_BY_4_0_with_attribution_and_change_notice",
       "exceptions_or_limits": "Keep conceptual, G0, provisional and not-to-scale labels where applicable"
     },
@@ -944,7 +950,7 @@
       "source_or_provenance": "Submission author with AI-assisted deterministic SVG drafting",
       "applicable_license_or_handling": "CC BY 4.0 for contributor-authored visual content",
       "attribution_requirement": "Credit Twin-Track Jing-Zhang / 双轨京张 and xyh202131, link CC BY 4.0 and indicate changes.",
-      "transformation_record": "Contributor-authored deterministic SVG composition from package contracts and bounded sources.",
+      "transformation_record": "R63 contributor-authored deterministic SVG rebuild foregrounding arrive, understand, complete, correct or withdraw, and leave across three place-specific task variants; no external image or model output added.",
       "redistribution_decision": "allowed_under_CC_BY_4_0_with_attribution_and_change_notice",
       "exceptions_or_limits": "Keep conceptual, G0, provisional and not-to-scale labels where applicable"
     },
@@ -1088,7 +1094,7 @@
       "source_or_provenance": "Contributor-authored SVG/concept content rasterized locally; no model-generated media retained",
       "applicable_license_or_handling": "CC BY 4.0 for contributor-authored visual content",
       "attribution_requirement": "Credit Twin-Track Jing-Zhang / 双轨京张 and xyh202131, link CC BY 4.0 and indicate changes.",
-      "transformation_record": "Deterministic local raster export of the paired contributor-authored SVG/concept source; no external image or model output added.",
+      "transformation_record": "R64 deterministic local Chrome raster export of the paired contributor-authored duty-acceptance SVG; no external image or model output added.",
       "redistribution_decision": "allowed_under_CC_BY_4_0_with_attribution_and_change_notice",
       "exceptions_or_limits": "Keep conceptual, G0, provisional and not-to-scale labels where applicable"
     },
@@ -1104,7 +1110,7 @@
       "source_or_provenance": "Submission author with AI-assisted deterministic SVG drafting",
       "applicable_license_or_handling": "CC BY 4.0 for contributor-authored visual content",
       "attribution_requirement": "Credit Twin-Track Jing-Zhang / 双轨京张 and xyh202131, link CC BY 4.0 and indicate changes.",
-      "transformation_record": "Contributor-authored deterministic SVG composition from package contracts and bounded sources.",
+      "transformation_record": "R64 contributor-authored deterministic SVG rebuild translating existing H01-H07 into role, refusal and ordinary-life-continuity reading groups; no third-party asset or model output added.",
       "redistribution_decision": "allowed_under_CC_BY_4_0_with_attribution_and_change_notice",
       "exceptions_or_limits": "Keep conceptual, G0, provisional and not-to-scale labels where applicable"
     },
@@ -1120,7 +1126,7 @@
       "source_or_provenance": "Contributor-authored SVG/concept content rasterized locally; no model-generated media retained",
       "applicable_license_or_handling": "CC BY 4.0 for contributor-authored visual content",
       "attribution_requirement": "Credit Twin-Track Jing-Zhang / 双轨京张 and xyh202131, link CC BY 4.0 and indicate changes.",
-      "transformation_record": "Deterministic local raster export of the paired contributor-authored SVG/concept source; no external image or model output added.",
+      "transformation_record": "R64 deterministic local Chrome raster export of the paired contributor-authored duty-acceptance SVG; no external image or model output added.",
       "redistribution_decision": "allowed_under_CC_BY_4_0_with_attribution_and_change_notice",
       "exceptions_or_limits": "Keep conceptual, G0, provisional and not-to-scale labels where applicable"
     },
@@ -1136,7 +1142,7 @@
       "source_or_provenance": "Submission author with AI-assisted deterministic SVG drafting",
       "applicable_license_or_handling": "CC BY 4.0 for contributor-authored visual content",
       "attribution_requirement": "Credit Twin-Track Jing-Zhang / 双轨京张 and xyh202131, link CC BY 4.0 and indicate changes.",
-      "transformation_record": "Contributor-authored deterministic SVG composition from package contracts and bounded sources.",
+      "transformation_record": "R64 contributor-authored deterministic SVG rebuild translating existing H01-H07 into role, refusal and ordinary-life-continuity reading groups; no third-party asset or model output added.",
       "redistribution_decision": "allowed_under_CC_BY_4_0_with_attribution_and_change_notice",
       "exceptions_or_limits": "Keep conceptual, G0, provisional and not-to-scale labels where applicable"
     },
@@ -1408,7 +1414,7 @@
       "source_or_provenance": "Submission-author conceptual vector composition rasterized locally with Pillow and Noto Sans CJK SC; no external image or model API",
       "applicable_license_or_handling": "CC BY 4.0 for contributor-authored conceptual media",
       "attribution_requirement": "Credit Twin-Track Jing-Zhang / 双轨京张 and xyh202131, link CC BY 4.0 and indicate changes.",
-      "transformation_record": "Contributor-authored vector composition rasterized locally with Pillow and the registered Noto font; no external image or model API.",
+      "transformation_record": "R63 rebuilt the contributor-authored poster in place with local Pillow and the registered Noto font from the human-task lens; the retained MP4, VTT and transcript were not changed and no external image or model API was used.",
       "redistribution_decision": "allowed_under_CC_BY_4_0_with_attribution_and_change_notice",
       "exceptions_or_limits": "Retain conceptual, G0, provisional and not-to-scale labels; source font and build tools are not redistributed and retain separate licences"
     },
@@ -1536,7 +1542,7 @@
       "source_or_provenance": "Submission author with AI-assisted deterministic layout, contributor-authored diagrams and retained R59 four-state storyboard",
       "applicable_license_or_handling": "CC BY 4.0 for contributor-authored publication content; visible Noto Sans SC glyphs rasterized and a minimal semantic OTF subset embedded under SIL OFL 1.1",
       "attribution_requirement": "Credit Twin-Track Jing-Zhang / 双轨京张 and xyh202131; retain CC BY, ODbL, OFL, source and provisional notices by component.",
-      "transformation_record": "R60 deterministic fixed-page composition; visible Noto glyphs rasterized and an OFL semantic subset embedded for search/copy without a tagged-PDF claim.",
+      "transformation_record": "R66 deterministic fixed-page rebuild adds the bounded policy-to-public-task firewall on A0-07 while retaining the independent-human handoff, page counts, G0/provisional warnings and searchable OFL semantic text; no tagged-PDF or legal-advice claim.",
       "redistribution_decision": "allowed_under_component_specific_CC_BY_4_0_ODbL_and_OFL_terms_with_notices",
       "exceptions_or_limits": "Retain source, rights, G0, provisional, editorial-duration and recovery-not-authorization warnings; independent reuse clearance remains absent"
     },
@@ -1552,7 +1558,7 @@
       "source_or_provenance": "Submission author with AI-assisted deterministic layout, contributor-authored diagrams and retained R59 four-state storyboard",
       "applicable_license_or_handling": "CC BY 4.0 for contributor-authored publication content; visible Noto Sans SC glyphs rasterized and a minimal semantic OTF subset embedded under SIL OFL 1.1",
       "attribution_requirement": "Credit Twin-Track Jing-Zhang / 双轨京张 and xyh202131; retain CC BY, ODbL, OFL, source and provisional notices by component.",
-      "transformation_record": "R60 deterministic fixed-page composition; visible Noto glyphs rasterized and an OFL semantic subset embedded for search/copy without a tagged-PDF claim.",
+      "transformation_record": "R66 deterministic fixed-page rebuild adds the bounded policy-to-public-task firewall on A0-07 while retaining the independent-human handoff, page counts, G0/provisional warnings and searchable OFL semantic text; no tagged-PDF or legal-advice claim.",
       "redistribution_decision": "allowed_under_component_specific_CC_BY_4_0_ODbL_and_OFL_terms_with_notices",
       "exceptions_or_limits": "Retain source, rights, G0, provisional, editorial-duration and recovery-not-authorization warnings; independent reuse clearance remains absent"
     },
@@ -1568,7 +1574,7 @@
       "source_or_provenance": "Submission author with AI-assisted deterministic layout, contributor-authored diagrams and retained R59 four-state storyboard",
       "applicable_license_or_handling": "CC BY 4.0 for contributor-authored publication content; visible Noto Sans SC glyphs rasterized and a minimal semantic OTF subset embedded under SIL OFL 1.1",
       "attribution_requirement": "Credit Twin-Track Jing-Zhang / 双轨京张 and xyh202131; retain CC BY, ODbL, OFL, source and provisional notices by component.",
-      "transformation_record": "R60 deterministic fixed-page composition; visible Noto glyphs rasterized and an OFL semantic subset embedded for search/copy without a tagged-PDF claim.",
+      "transformation_record": "R66 deterministic fixed-page rebuild adds the bounded policy-to-public-task firewall on A3-13 while retaining the independent-human handoff, page counts, G0/provisional warnings and searchable OFL semantic text; no tagged-PDF or legal-advice claim.",
       "redistribution_decision": "allowed_under_component_specific_CC_BY_4_0_ODbL_and_OFL_terms_with_notices",
       "exceptions_or_limits": "Retain source, rights, G0, provisional, editorial-duration and recovery-not-authorization warnings; independent reuse clearance remains absent"
     },
@@ -1584,7 +1590,7 @@
       "source_or_provenance": "Submission author with AI-assisted deterministic layout, contributor-authored diagrams and retained R59 four-state storyboard",
       "applicable_license_or_handling": "CC BY 4.0 for contributor-authored publication content; visible Noto Sans SC glyphs rasterized and a minimal semantic OTF subset embedded under SIL OFL 1.1",
       "attribution_requirement": "Credit Twin-Track Jing-Zhang / 双轨京张 and xyh202131; retain CC BY, ODbL, OFL, source and provisional notices by component.",
-      "transformation_record": "R60 deterministic fixed-page composition; visible Noto glyphs rasterized and an OFL semantic subset embedded for search/copy without a tagged-PDF claim.",
+      "transformation_record": "R66 deterministic fixed-page rebuild adds the bounded policy-to-public-task firewall on A3-13 while retaining the independent-human handoff, page counts, G0/provisional warnings and searchable OFL semantic text; no tagged-PDF or legal-advice claim.",
       "redistribution_decision": "allowed_under_component_specific_CC_BY_4_0_ODbL_and_OFL_terms_with_notices",
       "exceptions_or_limits": "Retain source, rights, G0, provisional, editorial-duration and recovery-not-authorization warnings; independent reuse clearance remains absent"
     },
@@ -1840,7 +1846,7 @@
       "source_or_provenance": "Submission author with AI-assisted deterministic rendering",
       "applicable_license_or_handling": "CC BY 4.0 for contributor content; linked embedded font subset is separately SIL OFL 1.1",
       "attribution_requirement": "Credit Twin-Track Jing-Zhang / 双轨京张 and xyh202131; retain CC BY, ODbL, OFL, source and provisional notices by component.",
-      "transformation_record": "Deterministic offline rendering of contributor text and package figures with the registered OFL WOFF2 subset.",
+      "transformation_record": "R77.1 restores the registered package-local OFL WOFF2 link after the R77 report render dropped it. R78 adds semantic skip navigation, a focusable main target, hidden table captions and explicit column-header scope; no remote dependency or new asset.",
       "redistribution_decision": "allowed_under_component_specific_CC_BY_4_0_ODbL_and_OFL_terms_with_notices",
       "exceptions_or_limits": "No remote dependency; retain accessibility, rights and evidence-boundary notices"
     },
@@ -1856,7 +1862,7 @@
       "source_or_provenance": "Submission author with AI-assisted deterministic rendering",
       "applicable_license_or_handling": "CC BY 4.0 for contributor content; linked embedded font subset is separately SIL OFL 1.1",
       "attribution_requirement": "Credit Twin-Track Jing-Zhang / 双轨京张 and xyh202131; retain CC BY, ODbL, OFL, source and provisional notices by component.",
-      "transformation_record": "Deterministic offline rendering of contributor text and package figures with the registered OFL WOFF2 subset.",
+      "transformation_record": "R77.1 restores the registered package-local OFL WOFF2 link after the R77 report render dropped it. R78 adds semantic skip navigation, a focusable main target, hidden table captions and explicit column-header scope; no remote dependency or new asset.",
       "redistribution_decision": "allowed_under_component_specific_CC_BY_4_0_ODbL_and_OFL_terms_with_notices",
       "exceptions_or_limits": "No remote dependency; retain accessibility, rights and evidence-boundary notices"
     },
@@ -2224,7 +2230,7 @@
       "source_or_provenance": "Noto Sans SC font software by its upstream authors; contributor-generated CSS wrapper and four-HTML glyph subset",
       "applicable_license_or_handling": "SIL Open Font License 1.1 for embedded WOFF2; wrapper included with submission documentation",
       "attribution_requirement": "Retain the Noto Sans CJK SC name, SIL OFL 1.1 notice and the recorded subset/source identity.",
-      "transformation_record": "fontTools subset over the literal character union of the four final HTML files; CSS wrapper authored by the contributor.",
+      "transformation_record": "R77.1 fontTools 4.62.1 subset over the current literal character union of all four final HTML files; 1162 Unicode code points and two fresh builds byte-identical; CSS wrapper authored by the contributor.",
       "redistribution_decision": "allowed_under_SIL_OFL_1_1_with_notice",
       "exceptions_or_limits": "Preserve OFL notice, do not sell the font by itself, and do not imply the font proves any planning claim"
     },
@@ -2243,6 +2249,22 @@
       "transformation_record": "Contributor-authored or deterministically generated package artifact at visual/assets/pilot-readiness-register.json; no unregistered third-party asset embedded.",
       "redistribution_decision": "allowed_under_CC_BY_4_0_with_attribution_and_change_notice",
       "exceptions_or_limits": "Citations remain citation-only; retain G0, provisional, source and rights boundaries"
+    },
+    {
+      "path": "visual/assets/policy-to-task-register.json",
+      "distribution_decision": "include_in_current_exact_package_under_component_specific_terms",
+      "artifact_class": "contributor_document_or_structured_evidence",
+      "authorship_or_source": "Submission author with AI-assisted drafting and bounded transcription of registered public policy sources",
+      "license_or_handling": "CC BY 4.0 for contributor-authored mapping text; policy sources remain citation-only and are not relicensed",
+      "third_party_obligation": "Retain each source ID, source class, applicability limit, G0/NO-GO boundary and no-approval statement",
+      "rights_status": "contributor_declared_with_citation_only_sources",
+      "author_or_rightsholder": "xyh202131 for the mapping; cited public issuers retain rights in source texts",
+      "source_or_provenance": "Six contributor-authored policy-to-public-task mappings derived only from sources.json and the central source registry authority classes",
+      "applicable_license_or_handling": "CC BY 4.0 for original mapping expression; cited policy texts remain citation-only under their source terms",
+      "attribution_requirement": "Credit Twin-Track Jing-Zhang / 双轨京张 and xyh202131 for the mapping, preserve source IDs and follow original source terms.",
+      "transformation_record": "Transforms registered policy direction into bounded design entry gates, stop rules and prohibited inferences; embeds no third-party page image, logo or document layout.",
+      "redistribution_decision": "allowed_for_contributor_mapping_under_CC_BY_4_0_with_citations_retained",
+      "exceptions_or_limits": "Does not create approval, enforcement authority, implementation duty, official geometry, field outcome, legal opinion or third-party clearance"
     },
     {
       "path": "visual/assets/professional-handoff-candidate.json",
@@ -2517,6 +2539,70 @@
       "exceptions_or_limits": "Citations remain citation-only; retain G0, provisional, source and rights boundaries"
     },
     {
+      "path": "visual/assets/drawing-atlas-a0.en.jpg",
+      "distribution_decision": "include_in_current_exact_package_under_component_specific_terms",
+      "artifact_class": "deterministic_raster_figure",
+      "authorship_or_source": "Deterministic all-page contact sheet derived locally from drawings/a0-boards.en.pdf",
+      "license_or_handling": "CC BY 4.0 for contributor-authored editorial composition; source PDF component licences remain unchanged",
+      "third_party_obligation": "Retain CC BY and OFL notices; use the source PDF for small text and complete content",
+      "rights_status": "component_licences_declared",
+      "author_or_rightsholder": "xyh202131 for contributor content and layout; Noto Sans CJK SC remains SIL OFL 1.1",
+      "source_or_provenance": "R79 local deterministic raster contact sheet from the unchanged English A0 PDF; no network, model API or external image",
+      "applicable_license_or_handling": "CC BY 4.0 for contributor-authored editorial composition; source PDF component licences remain unchanged",
+      "attribution_requirement": "Credit Twin-Track Jing-Zhang / 双轨京张 and xyh202131; retain CC BY and OFL notices.",
+      "transformation_record": "R79 rendered and tiled all 8 existing English A0 pages without changing the source PDF.",
+      "redistribution_decision": "allowed_under_component_specific_CC_BY_4_0_and_OFL_terms_with_notices",
+      "exceptions_or_limits": "Review thumbnail only; no new design, site, approval, official-boundary, real-result or professional-duty evidence"
+    },
+    {
+      "path": "visual/assets/drawing-atlas-a0.jpg",
+      "distribution_decision": "include_in_current_exact_package_under_component_specific_terms",
+      "artifact_class": "deterministic_raster_figure",
+      "authorship_or_source": "Deterministic all-page contact sheet derived locally from drawings/a0-boards.pdf",
+      "license_or_handling": "CC BY 4.0 for contributor-authored editorial composition; source PDF component licences remain unchanged",
+      "third_party_obligation": "Retain CC BY and OFL notices; use the source PDF for small text and complete content",
+      "rights_status": "component_licences_declared",
+      "author_or_rightsholder": "xyh202131 for contributor content and layout; Noto Sans CJK SC remains SIL OFL 1.1",
+      "source_or_provenance": "R79 local deterministic raster contact sheet from the unchanged Chinese A0 PDF; no network, model API or external image",
+      "applicable_license_or_handling": "CC BY 4.0 for contributor-authored editorial composition; source PDF component licences remain unchanged",
+      "attribution_requirement": "Credit Twin-Track Jing-Zhang / 双轨京张 and xyh202131; retain CC BY and OFL notices.",
+      "transformation_record": "R79 rendered and tiled all 8 existing Chinese A0 pages without changing the source PDF.",
+      "redistribution_decision": "allowed_under_component_specific_CC_BY_4_0_and_OFL_terms_with_notices",
+      "exceptions_or_limits": "Review thumbnail only; no new design, site, approval, official-boundary, real-result or professional-duty evidence"
+    },
+    {
+      "path": "visual/assets/drawing-atlas-a3.en.jpg",
+      "distribution_decision": "include_in_current_exact_package_under_component_specific_terms",
+      "artifact_class": "deterministic_raster_figure",
+      "authorship_or_source": "Deterministic all-page contact sheet derived locally from drawings/a3-booklet.en.pdf",
+      "license_or_handling": "CC BY 4.0 for contributor-authored editorial composition; source PDF component licences remain unchanged",
+      "third_party_obligation": "Retain CC BY and OFL notices; use the source PDF for small text and complete content",
+      "rights_status": "component_licences_declared",
+      "author_or_rightsholder": "xyh202131 for contributor content and layout; Noto Sans CJK SC remains SIL OFL 1.1",
+      "source_or_provenance": "R79 local deterministic raster contact sheet from the unchanged English A3 PDF; no network, model API or external image",
+      "applicable_license_or_handling": "CC BY 4.0 for contributor-authored editorial composition; source PDF component licences remain unchanged",
+      "attribution_requirement": "Credit Twin-Track Jing-Zhang / 双轨京张 and xyh202131; retain CC BY and OFL notices.",
+      "transformation_record": "R79 rendered and tiled all 14 existing English A3 pages without changing the source PDF.",
+      "redistribution_decision": "allowed_under_component_specific_CC_BY_4_0_and_OFL_terms_with_notices",
+      "exceptions_or_limits": "Review thumbnail only; no new design, site, approval, official-boundary, real-result or professional-duty evidence"
+    },
+    {
+      "path": "visual/assets/drawing-atlas-a3.jpg",
+      "distribution_decision": "include_in_current_exact_package_under_component_specific_terms",
+      "artifact_class": "deterministic_raster_figure",
+      "authorship_or_source": "Deterministic all-page contact sheet derived locally from drawings/a3-booklet.pdf",
+      "license_or_handling": "CC BY 4.0 for contributor-authored editorial composition; source PDF component licences remain unchanged",
+      "third_party_obligation": "Retain CC BY and OFL notices; use the source PDF for small text and complete content",
+      "rights_status": "component_licences_declared",
+      "author_or_rightsholder": "xyh202131 for contributor content and layout; Noto Sans CJK SC remains SIL OFL 1.1",
+      "source_or_provenance": "R79 local deterministic raster contact sheet from the unchanged Chinese A3 PDF; no network, model API or external image",
+      "applicable_license_or_handling": "CC BY 4.0 for contributor-authored editorial composition; source PDF component licences remain unchanged",
+      "attribution_requirement": "Credit Twin-Track Jing-Zhang / 双轨京张 and xyh202131; retain CC BY and OFL notices.",
+      "transformation_record": "R79 rendered and tiled all 14 existing Chinese A3 pages without changing the source PDF.",
+      "redistribution_decision": "allowed_under_component_specific_CC_BY_4_0_and_OFL_terms_with_notices",
+      "exceptions_or_limits": "Review thumbnail only; no new design, site, approval, official-boundary, real-result or professional-duty evidence"
+    },
+    {
       "path": "visual/index.en.html",
       "distribution_decision": "include_in_current_exact_package_under_component_specific_terms",
       "artifact_class": "offline_publication_html",
@@ -2528,7 +2614,7 @@
       "source_or_provenance": "Submission author with AI-assisted deterministic rendering",
       "applicable_license_or_handling": "CC BY 4.0 for contributor content; linked embedded font subset is separately SIL OFL 1.1",
       "attribution_requirement": "Credit Twin-Track Jing-Zhang / 双轨京张 and xyh202131; retain CC BY, ODbL, OFL, source and provisional notices by component.",
-      "transformation_record": "Deterministic offline rendering of contributor text and package figures with the registered OFL WOFF2 subset.",
+      "transformation_record": "R79 adds a bilingual-equivalent all-page drawing-atlas block derived from the four unchanged PDFs, with complete alt text and source-PDF links; no JavaScript, remote dependency, new design claim or real-world result is embedded.",
       "redistribution_decision": "allowed_under_component_specific_CC_BY_4_0_ODbL_and_OFL_terms_with_notices",
       "exceptions_or_limits": "No remote dependency; retain accessibility, rights and evidence-boundary notices"
     },
@@ -2544,7 +2630,7 @@
       "source_or_provenance": "Submission author with AI-assisted deterministic rendering",
       "applicable_license_or_handling": "CC BY 4.0 for contributor content; linked embedded font subset is separately SIL OFL 1.1",
       "attribution_requirement": "Credit Twin-Track Jing-Zhang / 双轨京张 and xyh202131; retain CC BY, ODbL, OFL, source and provisional notices by component.",
-      "transformation_record": "Deterministic offline rendering of contributor text and package figures with the registered OFL WOFF2 subset.",
+      "transformation_record": "R79 adds a bilingual-equivalent all-page drawing-atlas block derived from the four unchanged PDFs, with complete alt text and source-PDF links; no JavaScript, remote dependency, new design claim or real-world result is embedded.",
       "redistribution_decision": "allowed_under_component_specific_CC_BY_4_0_ODbL_and_OFL_terms_with_notices",
       "exceptions_or_limits": "No remote dependency; retain accessibility, rights and evidence-boundary notices"
     }

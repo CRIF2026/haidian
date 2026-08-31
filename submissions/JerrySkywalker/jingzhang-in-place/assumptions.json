@@ -19,8 +19,8 @@
       "id": "A-GEOMETRY-002",
       "status": "known_context_mismatch",
       "statement": "The provisional south key-area rectangle is materially displaced from the contextual Dazhongsi station anchor.",
-      "impact": "South work remains a typological grade-separated station-city field, never a parcel or station-corner plan.",
-      "closure": "Use official key-area geometry and surveyed exits before precise design."
+      "impact": "South work remains a typological grade-separated station-city field, never a parcel or station-corner plan; four-quadrant connectivity is structured as a conceptual design organization around verified station access (Line 13 Exits A/B, Line 12 Exits D/E) and contextual street interfaces.",
+      "closure": "Reconcile provisional geometry with verified station access (Line 13 Exits A/B, Line 12 Exits D/E) and official key-area polygons before detailed design delivery."
     },
     {
       "id": "A-BUILDING-001",
@@ -77,6 +77,34 @@
       "statement": "No named organization, carrier, model, dataset, operator or partnership is committed to the three bounded AI task packets.",
       "impact": "AI spaces are reversible typologies with NO-BUILD outcomes, not promised facilities or endorsements.",
       "closure": "Confirm task owner, authorization, minimum resource, qualified review, carrier and exit agreement."
+    },
+    {
+      "id": "A-AUTHORITY-001",
+      "status": "statutory_and_operational_roles_must_be_confirmed",
+      "statement": "The taskbook establishes a concept boundary but does not appoint a local operator, reviewer, safety lead, owner, approval body or legal stop authority for any scenario.",
+      "impact": "Role names in the proposal are proposed operational role types; they are not statutory facts or appointments.",
+      "closure": "Confirm rights-holder, operator and statutory/professional responsibilities before any field-facing activity."
+    },
+    {
+      "id": "A-FUNDING-001",
+      "status": "funding_mechanism_options_only",
+      "statement": "No budget, grant, investor, procurement route, public-funding promise or cost approval is provided for the proposed operational cycle or spatial deltas.",
+      "impact": "The proposal presents only conditional funding mechanism options and removes delivery cost claims.",
+      "closure": "Confirm an authorized budget path and the responsible rights-holder/operator before procurement or delivery."
+    },
+    {
+      "id": "A-READINESS-001",
+      "status": "concept_ready_field_data_authorization_and_professional_deepening_required",
+      "statement": "The package is ready for concept discussion and offline review only. The participant-readiness dossier is a reference handoff method, not field data, access, authorization, capacity, safety, budget, operator, commissioning or professional confirmation.",
+      "impact": "No scenario is described as deployed, field-validated, engineering-feasible or ready to operate; the dossier preserves a carrier screen/reject path, role-type handoff, NO-GO, acceptance, rights, and Day-1/Week-1 HOLD closure structure.",
+      "closure": "Complete applicable survey, rights/access agreement, authorized role assignment, professional review, field observation and supervised rehearsal before considering a field test."
+    },
+    {
+      "id": "A-P0-S01-001",
+      "status": "design_assumption_with_external_holds",
+      "statement": "The 12 m x 9 m zero-coordinate S01 P0 envelope, its role positions, components and session cap are a participant-authored conceptual reference only.",
+      "impact": "It does not establish a site, carrier, clearance, egress, loading, anchorage, utility capacity, code compliance, approved operation, cost, budget or field performance.",
+      "closure": "A future rights-holder, qualified professionals and field observation must independently confirm carrier, access, safety, accessibility, capacity, roles, stop/reset rehearsal and ordinary-baseline restoration before any physical test is considered."
     }
   ]
 }

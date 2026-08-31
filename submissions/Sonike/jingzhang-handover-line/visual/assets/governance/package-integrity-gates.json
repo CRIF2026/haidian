@@ -114,6 +114,7 @@
     },
     {
       "gate_id": "G06_FIGURE_BYTE_REPRODUCIBILITY",
+      "current_round_result_2026_08_31": "本轮最终 F/05 已升级为五级比例 P0 技术板，不再是下方 2026-08-22 记录中的旧 metrics-evidence 图。中英两张均由随包 build-p0-feasibility-figure.js 读取 p0-pre-feasibility-envelope.json、p0-delivery-contract.json 与 implementation-handoff-register.json 确定性生成；生成前强制复核1:500—1:20图纸链、12构件、16未计价数量、90天与年度成本算术、12道文件闸全部HOLD、报价槽为空、外部证据为0/null及正式预算为null。当前 sha256：中文 930f4fb3cfe342873a264db67d5dc74ab3478b93a463a0b7ac987b5805fd98a6，英文 9adc5a6872d042e79cb73d83bb9a934fa083c8b2bc92e93b1c1dbbed58c2bd30。下方 current_result 保留旧版本的历史复现记录，其中‘metrics-evidence生成器已丢失’只描述被替换的旧图，不再描述当前最终F/05。",
       "statement_zh": "包内图件必须能被其生成器逐字节复现；不能复现的要如实记为不可复现。",
       "statement_en": "Shipped figures must be byte-reproducible from their generators; anything that is not must be recorded as such.",
       "checks": "assets/figures/*.png 与 drawings/*.pdf 各页",
@@ -154,7 +155,7 @@
           "what": "版本印记常量有三处而非两处（jzstyle / jzsheet / assemble_pdfs），漏掉 jzsheet 会让新页印旧版本、保留页印新版本，正好制造要消除的「版本号并存」。**这条闸门是唯一能发现它的方式**，因为两处印记各自看都自洽。"
         },
         {
-          "when": "2026-08-24 93 分复评",
+          "when": "2026-08-24 复核",
           "what": "A0 中英首页外层可检索页脚已是 v2.0，但内嵌 F/01 栅格仍显示 PACKAGE v1.15；纯文本命中检查全绿却漏过视觉旧版本。重建首页并加入 4/4 逐像素源图绑定后关闭该盲区。"
         }
       ]
@@ -217,14 +218,14 @@
       "statement_en": "All four HTML files must open offline and render completely in a clean browser with no system CJK font.",
       "checks": "visual/index[.en].html、report/proposal[.en].html；P0 原型位于 visual/index.html#p0-prototype",
       "decision_rule_zh": "全文不得出现指向 http(s) 的 src / href 资源引用；四页须加载包内哈希绑定的 CJK WOFF2，中文 body 以 JZHandoverCJK 为首选，交互总览页 24 类等宽标签须显式把该字体列在 generic monospace 之前，且不得使用无效的 `font: … inherit` shorthand。",
-      "current_result": "四个 HTML 的外部 http(s) 资源引用数 = 0；268,872 字节 WOFF2 哈希、OFL、1,629 组可见字符全部闭合；交互总览页 24/24 类等宽标签显式回退 JZHandoverCJK；内嵌 P0 原型使用同一包内字体，已在 1280×633 桌面与 390×844 手机视口复核锚点、单列布局、双语、大字、高对比、拒绝不降级、投稿 CLOSED／现场 BLOCKED 状态分层与零浏览器存储",
+      "current_result": "四个 HTML 的外部 http(s) 资源引用数 = 0；286,048 字节 WOFF2 哈希、OFL 与全部可见字符闭合；F/05、F/06、F/07 与 PDF 首页／附页复用同一字体负载；交互总览页 24/24 类等宽标签显式回退 JZHandoverCJK；内嵌 P0 原型使用同一包内字体，已在 1280×633 桌面与 390×844 手机视口复核锚点、单列布局、双语、大字、高对比、拒绝不降级、投稿 CLOSED／现场 BLOCKED 状态分层与零浏览器存储",
       "caught_real_defects": [
         {
-          "when": "2026-08-23 88 分评审",
+          "when": "2026-08-23 复核",
           "what": "中文 body 依赖 macOS 系统字体，干净评审容器中大面积显示方框；改为四页共用包内 OFL CJK WOFF2。"
         },
         {
-          "when": "2026-08-24 93 分二次复评",
+          "when": "2026-08-24 二次复核",
           "what": "body 字体已正确，但微标题和交互控件用 `font: … monospace` 重置字体栈，macOS 的系统补字再次掩盖了 Linux 方框；现由 24 类等宽选择器显式回退包内 CJK 字体。"
         }
       ]

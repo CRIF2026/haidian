@@ -143,6 +143,10 @@
         "submissions/xyh202131/jingzhang-ai-pilgrimage-belt/visual/assets/climate-resilience-contract.json",
         "submissions/xyh202131/jingzhang-ai-pilgrimage-belt/visual/assets/convergence-baseline.json",
         "submissions/xyh202131/jingzhang-ai-pilgrimage-belt/visual/assets/data-gap-closure-register.json",
+        "submissions/xyh202131/jingzhang-ai-pilgrimage-belt/visual/assets/drawing-atlas-a0.en.jpg",
+        "submissions/xyh202131/jingzhang-ai-pilgrimage-belt/visual/assets/drawing-atlas-a0.jpg",
+        "submissions/xyh202131/jingzhang-ai-pilgrimage-belt/visual/assets/drawing-atlas-a3.en.jpg",
+        "submissions/xyh202131/jingzhang-ai-pilgrimage-belt/visual/assets/drawing-atlas-a3.jpg",
         "submissions/xyh202131/jingzhang-ai-pilgrimage-belt/visual/assets/evidence-freshness-policy.json",
         "submissions/xyh202131/jingzhang-ai-pilgrimage-belt/visual/assets/failure-governance-register.json",
         "submissions/xyh202131/jingzhang-ai-pilgrimage-belt/visual/assets/field-evidence-intake-contract.json",
@@ -157,6 +161,7 @@
         "submissions/xyh202131/jingzhang-ai-pilgrimage-belt/visual/assets/non-ai-parity-contract.json",
         "submissions/xyh202131/jingzhang-ai-pilgrimage-belt/visual/assets/offline-cjk-font.css",
         "submissions/xyh202131/jingzhang-ai-pilgrimage-belt/visual/assets/pilot-readiness-register.json",
+        "submissions/xyh202131/jingzhang-ai-pilgrimage-belt/visual/assets/policy-to-task-register.json",
         "submissions/xyh202131/jingzhang-ai-pilgrimage-belt/visual/assets/professional-handoff-candidate.json",
         "submissions/xyh202131/jingzhang-ai-pilgrimage-belt/visual/assets/readiness-closure-contract.json",
         "submissions/xyh202131/jingzhang-ai-pilgrimage-belt/visual/assets/reversible-component-restoration-register.json",
@@ -180,7 +185,7 @@
       "ai_package_stages": {
         "submissions/xyh202131/jingzhang-ai-pilgrimage-belt": "formal"
       },
-      "total_bytes": 29723675,
+      "total_bytes": 32293364,
       "maintainer_bypass": false
     },
     "stderr": ""
@@ -254,14 +259,14 @@
       "summary": {
         "standard_matrix_items": 6,
         "design_depth_items": 15,
-        "known_metric_refs_required": 119,
+        "known_metric_refs_required": 120,
         "proposal_format_version": "2",
         "evidence_contract": "section-anchors-plus-structured-audit",
         "proposal_reference_counts": {
-          "source": 35,
+          "source": 38,
           "standard": 6,
           "depth": 15,
-          "data": 57,
+          "data": 59,
           "metric": 60
         }
       }
