@@ -1,5 +1,33 @@
 # 方案迭代记录 / Changelog
 
+## v103.0 - 2026-08-31
+
+**当前工件权威地图 / Current Artefact Authority Map**
+
+- 已有能力：当前包已经在结构化交接索引中声明工件权威顺序、manifest Git blob 哈希绑定、双语阅读路线与外部评审 exact-head 边界；中英 visual 的证据段也给出核心指标、四份 PDF 图谱和若干深层入口。
+- 真实缺口：修复前，visual 只用一句箭头文字压缩权威顺序，底部链接又把正文、指标、来源、临时几何、合同和图纸并列呈现。审阅者能打开文件，却不能在同一屏判断“哪一层回答什么、哪一层不得覆盖什么”；结构化索引能证明规则存在，不能证明入口可被快速执行。
+- 必须冻结：冻结“双轨京张 / Twin-Track Jing-Zhang”、三种不可互换原型、JZ-AIOS、G0—G3、四轴、三载体、证据门、权利边界及 12/8/3/36；不改 proposal、report、图件、媒体、四份 PDF、geometry、metrics、矩阵内容、来源判断、现实状态、0/8 人工双语签署或既有结构化交接合同。
+- 本轮实施：在中英离线 visual 的证据段之后增加四层当前工件地图，分别指向空间与指标、正式矩阵、来源/假设/自检/权利、正文与出版物；每层同时说明用途和不得推导的结论。当前状态仍须由最终 PR exact head 上的 manifest Git blob 与 self-check 回读绑定，外部评审只能绑定其明确 reviewed head。页面仍无 JavaScript、无远程资源、键盘可达、窄屏单栏且可打印；官方几何、批准、现场基线与结果、现实责任、预算、恢复时间、公众反馈、独立法律/商标审查和人工双语签署继续为 unknown、0、未提供或 NO-GO。
+
+- Existing capability: the current package already declares artefact authority order, manifest Git-blob hash binding, bilingual reading routes and the external-review exact-head boundary in its structured handoff index. Both visual pages also expose core metrics, four complete PDF atlases and selected deep evidence entrances.
+- Real gap: before repair, the visual compressed authority order into one arrow sentence, while its footer presented proposal, metrics, sources, provisional geometry, contracts and drawings as peer links. A reviewer could open files but could not decide on one screen which layer answers which question or which layer may not override another. The structured index proves that the rule exists, not that the review entrance makes it executable.
+- Frozen boundary: Twin-Track Jing-Zhang, the three non-interchangeable prototypes, JZ-AIOS, G0–G3, four axes, three carriers, evidence gates, rights boundaries and 12/8/3/36 remain frozen. Proposals, reports, figures, media, all four PDFs, geometry, metrics, matrix content, source judgements, real-world status, the unsigned 0/8 human bilingual review and existing structured handoff contracts are unchanged.
+- Implemented this round: added a four-layer current-artefact map after the evidence section of both offline visual pages, routing separately to space and metrics, formal matrices, provenance/assumptions/self-check/rights, and narrative/publication artefacts. Each layer states both its use and its prohibited inference. Current state still binds through the manifest Git blob and self-check readback on the final PR exact head; external review binds only its explicit reviewed head. The pages remain script-free, remote-free, keyboard reachable, single-column on narrow screens and printable. Official geometry, approvals, field baselines and outcomes, real accountability, budgets, recovery time, public feedback, independent legal/trademark review and human bilingual sign-off remain unknown, zero, not provided or NO-GO.
+
+## v102.0 - 2026-08-31
+
+**人工双语复核路径显性化 / Human Bilingual Review Wayfinding**
+
+- 已有能力：结构化双语等价文件已经定义 HUMAN-EQ-01—08 的独立抽检范围、成对工件位置、问题、允许结果与闭锁规则；中英 visual 也持续显示“0/8、未签署”。
+- 真实缺口：修复前，离线 visual 只把八项抽检压缩成四张主题摘要卡；审阅者必须另开 JSON 或固定页位，才能找到逐项工件路径和判断问题。自动闸门能确认文件及状态一致，不能证明人工工作表容易执行。
+- 必须冻结：冻结“双轨京张 / Twin-Track Jing-Zhang”、三种不可互换原型、JZ-AIOS、G0—G3、四轴、三载体、证据门、权利边界及 12/8/3/36；不改 proposal、report、图件、媒体、四份 PDF、geometry、metrics、来源判断、现实状态、结构化抽检合同或 0/8 未签署状态。
+- 本轮实施：在中英离线 visual 的专业交接段完整公开 HUMAN-EQ-01—08，每项给出成对工件范围、独立判断问题和“未填写 / not reviewed”状态；双栏在窄屏退化为单栏，打印时每项避免跨页。没有表单或 JavaScript，也不预填审阅结果、审阅者身份、exact head 或签署。官方几何、批准、现场基线与结果、现实责任、预算、恢复时间、公众反馈、独立法律/商标审查和人工双语签署继续为 unknown、0、未提供或 NO-GO。
+
+- Existing capability: the structured bilingual-equivalence record already defines the HUMAN-EQ-01—08 independent sample scopes, paired artefact locations, questions, allowed results and fail-closed rule. Both visual pages also retain the visible “0/8, unsigned” status.
+- Real gap: before repair, the offline visual compressed eight samples into four topic-summary tiles. A reviewer had to open the JSON or fixed pages to find each artefact path and decision question. Automated gates can prove file and status consistency, not that the human worksheet is executable at the review entrance.
+- Frozen boundary: Twin-Track Jing-Zhang, the three non-interchangeable prototypes, JZ-AIOS, G0–G3, four axes, three carriers, evidence gates, rights boundaries and 12/8/3/36 remain frozen. Proposals, reports, figures, media, all four PDFs, geometry, metrics, source judgements, real-world status, the structured sampling contract and the unsigned 0/8 state are unchanged.
+- Implemented this round: exposed HUMAN-EQ-01—08 in full inside the professional-handoff section of both offline visual pages, with paired artefact scope, independent decision question and “not reviewed” state for every item. The two-column sheet collapses to one column on narrow screens and keeps each item together in print. It adds no form or JavaScript and prefills no review result, reviewer identity, exact head or sign-off. Official geometry, approvals, field baselines and outcomes, real accountability, budgets, recovery time, public feedback, independent legal/trademark review and human bilingual sign-off remain unknown, zero, not provided or NO-GO.
+
 ## v101.0 - 2026-08-31
 
 **审阅历史收束 / Review-history Convergence**

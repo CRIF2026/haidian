@@ -69,7 +69,7 @@
       "path": "self_check.json",
       "role": "self_check",
       "required": true,
-      "sha256": "4acb308a7144979bb75b49a8c60233315eb317a79551815c1d99b1aef25cf554"
+      "sha256": "0b81f137240e1dca79b47c9b50207807953364f5210c1c75af936b54e7e3d950"
     },
     {
       "path": "risk.json",
@@ -86,7 +86,7 @@
       "path": "changelog.md",
       "role": "changelog",
       "required": true,
-      "sha256": "47200d73d8021f7b5abf6e197a68a0664bd62e550d3eddd285bf3c322cf78677"
+      "sha256": "e2ccba65bd2534f41de142668af9ea69c1cd11a89285e7de2e6615b9aa76c821"
     },
     {
       "path": "compliance_matrix.json",
@@ -276,7 +276,7 @@
       "role": "visualization",
       "required": true,
       "language": "zh",
-      "sha256": "de9a7a04c22eac1991af0ff40de3fa3b764169f2b280ef445f8618a0abbdf9ec"
+      "sha256": "400ceee58e75f8739661c61628c72fe067bc53a4d21cde4086a5c536e0c3c97a"
     },
     {
       "path": "visual/assets/offline-cjk-font.css",
@@ -440,7 +440,7 @@
       "required": true,
       "language": "en",
       "translation_of": "visual/index.html",
-      "sha256": "b7cd6fe83a5cbff1db95823d4f7c467531184c07b65f2e2491bb01217af49ab0"
+      "sha256": "ea68346872b85a4f4a9d65a499ccfda2e08f7a6b961ec200bb2d9a93afa4d831"
     },
     {
       "path": "drawings/a3-booklet.en.pdf",
