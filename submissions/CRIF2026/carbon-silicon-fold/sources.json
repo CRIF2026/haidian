@@ -149,6 +149,101 @@
       "not_usable_for": [
         "作为提交边界数据"
       ]
+    },
+    {
+      "id": "SRC-2026-ECO-MILA",
+      "title": "Mila — 魁北克人工智能研究所官方公开主页",
+      "publisher": "Mila (Quebec AI Institute)",
+      "url": "https://mila.quebec",
+      "authority_level": "B",
+      "usable_for": [
+        "高校联合体＋产业联合实验室＋开源文化机制借鉴",
+        "面向决策者的 AI 政策课程机制借鉴"
+      ],
+      "not_usable_for": [
+        "研究人员规模作为本地对标值",
+        "联邦／省资助结构复制",
+        "受版权文本或图形复制"
+      ]
+    },
+    {
+      "id": "SRC-2026-ECO-VECTOR",
+      "title": "Vector Institute 官方公开主页",
+      "publisher": "Vector Institute",
+      "url": "https://vectorinstitute.ai",
+      "authority_level": "B",
+      "usable_for": [
+        "研究—产业转化桥梁机制借鉴",
+        "企业 AI 训练营接入通道机制借鉴"
+      ],
+      "not_usable_for": [
+        "研究人员规模作为本地对标值",
+        "国家资助背景平移",
+        "受版权文本或图形复制"
+      ]
+    },
+    {
+      "id": "SRC-2026-ECO-TURING",
+      "title": "The Alan Turing Institute 官方公开主页",
+      "publisher": "The Alan Turing Institute",
+      "url": "https://turing.ac.uk",
+      "authority_level": "B",
+      "usable_for": [
+        "公共部门试验床机制借鉴",
+        "可信 AI 保证框架（TEA）开源参考"
+      ],
+      "not_usable_for": [
+        "国家研究院法律地位复制",
+        "英国治理语境套用",
+        "受版权文本或图形复制"
+      ]
+    },
+    {
+      "id": "SRC-2026-ECO-STATIONF",
+      "title": "STATION F 官方公开主页",
+      "publisher": "STATION F",
+      "url": "https://stationf.co",
+      "authority_level": "B",
+      "usable_for": [
+        "超大单体创业园载体集聚机制借鉴",
+        "统一运营方降低服务成本机制借鉴"
+      ],
+      "not_usable_for": [
+        "单体巨型载体面积／租金模型套用",
+        "受版权文本或图形复制"
+      ]
+    },
+    {
+      "id": "SRC-2026-ECO-AISG",
+      "title": "AI Singapore（AISG）官方公开主页",
+      "publisher": "National AI Office, Singapore (AI Singapore)",
+      "url": "https://aisingapore.org",
+      "authority_level": "B",
+      "usable_for": [
+        "场景清单＋实验制（100E）组织机制借鉴",
+        "AI 治理作为独立支柱机制借鉴"
+      ],
+      "not_usable_for": [
+        "城市国家尺度与治理集中度套用",
+        "100E 资助强度类比",
+        "受版权文本或图形复制"
+      ]
+    },
+    {
+      "id": "SRC-2026-ECO-SNC",
+      "title": "Startup Nation Central（Finder 生态平台）官方公开主页",
+      "publisher": "Startup Nation Central",
+      "url": "https://startupnationcentral.org",
+      "authority_level": "B",
+      "usable_for": [
+        "统一数据平台降低生态信息不对称机制借鉴",
+        "服务招引与对接机制借鉴"
+      ],
+      "not_usable_for": [
+        "军民转化与高密度创业网络路径套用",
+        "平台数据口径未经本地重制直接采用",
+        "受版权文本或图形复制"
+      ]
     }
   ]
 }

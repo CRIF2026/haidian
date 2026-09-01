@@ -10,17 +10,17 @@
       "ok": true,
       "errors": [],
       "warnings": [
+        "submissions/CRIF2026/carbon-silicon-fold/proposal.md: 可能涉及非公开或敏感资料; maintainer review required",
         "submissions/CRIF2026/carbon-silicon-fold/manifest.json: known_blockers present; submission may pass intake but cannot enter formal professional scoring until resolved",
         "submissions/CRIF2026/carbon-silicon-fold/geometry/site_boundary.geojson: uses provisional boundary; do not treat it as an official redline or precise-area basis. Organizer data gaps do not block content scoring; recalculate when official geometry is supplied",
-        "submissions/CRIF2026/carbon-silicon-fold/proposal.md: a paragraph/block contains 4 consecutive evidence markers; attach no more than 3 to one claim; legacy proposal remains compatible and the viewer will condense it",
-        "submissions/CRIF2026/carbon-silicon-fold/proposal.md: a paragraph/block contains 7 consecutive evidence markers; attach no more than 3 to one claim; legacy proposal remains compatible and the viewer will condense it",
-        "submissions/CRIF2026/carbon-silicon-fold/proposal.md: a paragraph/block contains 35 evidence markers; keep the full index in structured files; legacy proposal remains compatible and the viewer will condense it",
         "submissions/CRIF2026/carbon-silicon-fold/proposal.md: bilingual contract requires translation_file=proposal.en.md; legacy v1 package remains compatible",
         "submissions/CRIF2026/carbon-silicon-fold/assets/figures/key-areas.png: bilingual contract requires en display counterpart `assets/figures/key-areas.en.png`; legacy v1 package remains compatible",
         "submissions/CRIF2026/carbon-silicon-fold/assets/figures/land-use-structure.png: bilingual contract requires en display counterpart `assets/figures/land-use-structure.en.png`; legacy v1 package remains compatible",
+        "submissions/CRIF2026/carbon-silicon-fold/assets/figures/logo.png: bilingual contract requires en display counterpart `assets/figures/logo.en.png`; legacy v1 package remains compatible",
         "submissions/CRIF2026/carbon-silicon-fold/assets/figures/metrics-evidence.png: bilingual contract requires en display counterpart `assets/figures/metrics-evidence.en.png`; legacy v1 package remains compatible",
         "submissions/CRIF2026/carbon-silicon-fold/assets/figures/mobility-bluegreen.png: bilingual contract requires en display counterpart `assets/figures/mobility-bluegreen.en.png`; legacy v1 package remains compatible",
         "submissions/CRIF2026/carbon-silicon-fold/assets/figures/site-overview.png: bilingual contract requires en display counterpart `assets/figures/site-overview.en.png`; legacy v1 package remains compatible",
+        "submissions/CRIF2026/carbon-silicon-fold/assets/figures/spatial-action-index.png: bilingual contract requires en display counterpart `assets/figures/spatial-action-index.en.png`; legacy v1 package remains compatible",
         "submissions/CRIF2026/carbon-silicon-fold/drawings/a0-boards.pdf: bilingual contract requires en display counterpart `drawings/a0-boards.en.pdf`; legacy v1 package remains compatible",
         "submissions/CRIF2026/carbon-silicon-fold/drawings/a3-booklet.pdf: bilingual contract requires en display counterpart `drawings/a3-booklet.en.pdf`; legacy v1 package remains compatible",
         "submissions/CRIF2026/carbon-silicon-fold/proposal.md: bilingual contract requires en display counterpart `proposal.en.md`; legacy v1 package remains compatible",
@@ -35,9 +35,11 @@
         "submissions/CRIF2026/carbon-silicon-fold/agent.json",
         "submissions/CRIF2026/carbon-silicon-fold/assets/figures/key-areas.png",
         "submissions/CRIF2026/carbon-silicon-fold/assets/figures/land-use-structure.png",
+        "submissions/CRIF2026/carbon-silicon-fold/assets/figures/logo.png",
         "submissions/CRIF2026/carbon-silicon-fold/assets/figures/metrics-evidence.png",
         "submissions/CRIF2026/carbon-silicon-fold/assets/figures/mobility-bluegreen.png",
         "submissions/CRIF2026/carbon-silicon-fold/assets/figures/site-overview.png",
+        "submissions/CRIF2026/carbon-silicon-fold/assets/figures/spatial-action-index.png",
         "submissions/CRIF2026/carbon-silicon-fold/assumptions.json",
         "submissions/CRIF2026/carbon-silicon-fold/compliance_matrix.json",
         "submissions/CRIF2026/carbon-silicon-fold/design_depth_matrix.json",
@@ -66,7 +68,7 @@
       "ai_package_stages": {
         "submissions/CRIF2026/carbon-silicon-fold": "formal"
       },
-      "total_bytes": 2002689,
+      "total_bytes": 8101593,
       "maintainer_bypass": false
     },
     "stderr": ""
@@ -141,14 +143,14 @@
         "standard_matrix_items": 6,
         "design_depth_items": 15,
         "known_metric_refs_required": 20,
-        "proposal_format_version": "1",
-        "evidence_contract": "legacy-exhaustive-inline",
+        "proposal_format_version": "2",
+        "evidence_contract": "section-anchors-plus-structured-audit",
         "proposal_reference_counts": {
-          "source": 9,
+          "source": 15,
           "standard": 6,
-          "depth": 18,
-          "data": 21,
-          "metric": 22
+          "depth": 3,
+          "data": 8,
+          "metric": 12
         }
       }
     },
@@ -170,9 +172,11 @@
     "Review legacy bilingual compatibility warning: submissions/CRIF2026/carbon-silicon-fold/proposal.md: bilingual contract requires translation_file=proposal.en.md; legacy v1 package remains compatible",
     "Review legacy bilingual compatibility warning: submissions/CRIF2026/carbon-silicon-fold/assets/figures/key-areas.png: bilingual contract requires en display counterpart `assets/figures/key-areas.en.png`; legacy v1 package remains compatible",
     "Review legacy bilingual compatibility warning: submissions/CRIF2026/carbon-silicon-fold/assets/figures/land-use-structure.png: bilingual contract requires en display counterpart `assets/figures/land-use-structure.en.png`; legacy v1 package remains compatible",
+    "Review legacy bilingual compatibility warning: submissions/CRIF2026/carbon-silicon-fold/assets/figures/logo.png: bilingual contract requires en display counterpart `assets/figures/logo.en.png`; legacy v1 package remains compatible",
     "Review legacy bilingual compatibility warning: submissions/CRIF2026/carbon-silicon-fold/assets/figures/metrics-evidence.png: bilingual contract requires en display counterpart `assets/figures/metrics-evidence.en.png`; legacy v1 package remains compatible",
     "Review legacy bilingual compatibility warning: submissions/CRIF2026/carbon-silicon-fold/assets/figures/mobility-bluegreen.png: bilingual contract requires en display counterpart `assets/figures/mobility-bluegreen.en.png`; legacy v1 package remains compatible",
     "Review legacy bilingual compatibility warning: submissions/CRIF2026/carbon-silicon-fold/assets/figures/site-overview.png: bilingual contract requires en display counterpart `assets/figures/site-overview.en.png`; legacy v1 package remains compatible",
+    "Review legacy bilingual compatibility warning: submissions/CRIF2026/carbon-silicon-fold/assets/figures/spatial-action-index.png: bilingual contract requires en display counterpart `assets/figures/spatial-action-index.en.png`; legacy v1 package remains compatible",
     "Review legacy bilingual compatibility warning: submissions/CRIF2026/carbon-silicon-fold/drawings/a0-boards.pdf: bilingual contract requires en display counterpart `drawings/a0-boards.en.pdf`; legacy v1 package remains compatible",
     "Review legacy bilingual compatibility warning: submissions/CRIF2026/carbon-silicon-fold/drawings/a3-booklet.pdf: bilingual contract requires en display counterpart `drawings/a3-booklet.en.pdf`; legacy v1 package remains compatible",
     "Review legacy bilingual compatibility warning: submissions/CRIF2026/carbon-silicon-fold/proposal.md: bilingual contract requires en display counterpart `proposal.en.md`; legacy v1 package remains compatible",
