@@ -1771,6 +1771,60 @@
         "MNR-LAND-USE-CLASSIFICATION-GUIDE",
         "MOHURD-ARCH-DESIGN-DEPTH-2016"
       ]
+    },
+    {
+      "requirement_id": "2.5.beiwei.synergy",
+      "title_zh": "北纬社区协同：与中关村 AI 北纬社区的创新协同（区域协同性响应）",
+      "mandatory": true,
+      "report_sections": [
+        "2.5 北纬社区协同：与中关村 AI 北纬社区的职能分工"
+      ],
+      "geojson_layers": [
+        "geometry/site_boundary.geojson",
+        "geometry/key_areas.geojson",
+        "geometry/land_use.geojson",
+        "geometry/buildings.geojson",
+        "geometry/roads.geojson",
+        "geometry/green_space.geojson",
+        "geometry/public_space.geojson",
+        "geometry/constraints.geojson",
+        "geometry/phasing.geojson"
+      ],
+      "metrics": [
+        "M-AREA-KEY-001",
+        "M-AREA-KEY-002",
+        "M-REUSE-LAYERS",
+        "M-REUSE-RATIO",
+        "M-DATA-TIERS"
+      ],
+      "drawings": [
+        "drawings/a3-booklet.pdf",
+        "drawings/a0-boards.pdf"
+      ],
+      "visual_sections": [
+        "总览地图",
+        "任务覆盖",
+        "核心指标"
+      ],
+      "source_ids": [
+        "SRC-2026-BJHD-AI-BEIWEI",
+        "SRC-2026-BJHD-AI-OPC",
+        "SRC-2026-0518-AGENT-OPEN-CALL-TASKBOOK",
+        "SRC-PROVISIONAL-BOUNDARIES-2026"
+      ],
+      "assumption_ids": [
+        "A-CONTROLS-001"
+      ],
+      "self_check_ids": [
+        "BOUNDARY_TRUST",
+        "KEY_AREAS_TRUST",
+        "LAND_USE_TOPOLOGY",
+        "VISUAL_STATIC"
+      ],
+      "standard_ids": [
+        "PROJECT-AGENT-OPEN-CALL-TASKBOOK",
+        "MOHURD-URBAN-DESIGN-MEASURES"
+      ]
     }
   ]
 }

@@ -168,6 +168,48 @@
         "概念场景"
       ]
     },
+    "M-REUSE-LAYERS": {
+      "status": "known",
+      "value": 6,
+      "unit": "count",
+      "source_files": [
+        "brief/site-package/agent_taskbook.json"
+      ],
+      "formula": "被 3 个及以上 AI+ 场景卡调用的基础设施层数（L1 城市感知网络／L2 边缘算力与推理／L3 数据沙箱与脱敏／L4 统一身份与授权／L5 数字孪生底座／L6 场景开放 API 与编排）",
+      "confidence": "medium",
+      "assumptions": [
+        "复用关系基于本包 12 张场景卡的功能需求推导，非现状设施普查",
+        "共享阈值（≥3 个场景）为本包自定义口径，非规范指标"
+      ]
+    },
+    "M-REUSE-RATIO": {
+      "status": "known",
+      "value": 1.0,
+      "unit": "ratio",
+      "source_files": [
+        "brief/site-package/agent_taskbook.json"
+      ],
+      "formula": "满足共享阈值（被 ≥3 个场景复用）的层数 ÷ 共享层总数 = 6 ÷ 6",
+      "confidence": "medium",
+      "assumptions": [
+        "比值恒为 1.0 是定义的结果：仅将达到阈值的设施计入共享层，故该指标反映口径自洽性而非外部效益",
+        "各层实际复用场景数分别为 6／11／11／5／5／12，详见 proposal.md 5.6 节矩阵"
+      ]
+    },
+    "M-DATA-TIERS": {
+      "status": "known",
+      "value": 4,
+      "unit": "count",
+      "source_files": [
+        "brief/site-package/agent_taskbook.json"
+      ],
+      "formula": "数据分级层数（公开／内部／敏感／高敏感）",
+      "confidence": "medium",
+      "assumptions": [
+        "分级口径参考数据分类分级通用做法，最终须以属地数据分类分级清单为准",
+        "分级仅约束本包场景卡的数据流转，不构成法定定级结论"
+      ]
+    },
     "M-PERSONAS": {
       "status": "known",
       "value": 6,

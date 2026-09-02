@@ -396,6 +396,55 @@
         "VISUAL_STATIC"
       ],
       "evidence_summary_zh": "本条标准响应通过 proposal.md 正文引用、A3/A0 图纸、GeoJSON 图层、metrics.json 指标和自检项共同证明。"
+    },
+    {
+      "standard_id": "PROJECT-REGIONAL-INDUSTRY-SYNERGY",
+      "requirement_zh": "区域协同性（regional_synergy）要求体现与北纬社区、未来科学城、怀柔科学城、经开区及京津冀的创新协同；产业支撑度（industry_support）要求提出 AI 创新生态、要素保障、技术测试和场景开放机制；数据治理架构支撑跨场景基础设施复用。",
+      "professional_dimension": "AI共创与运营",
+      "mandatory": true,
+      "review_status": "addressed",
+      "proposal_sections": [
+        "2.5 北纬社区协同：与中关村 AI 北纬社区的职能分工",
+        "5.6 跨场景基础设施复用：共享层 × 12 张场景卡",
+        "5.7 数据治理架构：采集—确权—分级—脱敏—共享—审计—回流"
+      ],
+      "drawing_refs": [
+        "drawings/a3-booklet.pdf",
+        "drawings/a0-boards.pdf"
+      ],
+      "geometry_refs": [
+        "geometry/site_boundary.geojson",
+        "geometry/key_areas.geojson",
+        "geometry/land_use.geojson",
+        "geometry/buildings.geojson",
+        "geometry/roads.geojson",
+        "geometry/green_space.geojson",
+        "geometry/public_space.geojson",
+        "geometry/constraints.geojson",
+        "geometry/phasing.geojson"
+      ],
+      "metric_refs": [
+        "M-ECOSYSTEM-CASES",
+        "M-SCENARIO-CARDS",
+        "M-REUSE-LAYERS",
+        "M-REUSE-RATIO",
+        "M-DATA-TIERS"
+      ],
+      "source_ids": [
+        "SRC-2026-BJHD-AI-BEIWEI",
+        "SRC-2026-BJHD-AI-OPC",
+        "SRC-2026-0518-AGENT-OPEN-CALL-TASKBOOK"
+      ],
+      "assumption_ids": [
+        "A-CONTROLS-001"
+      ],
+      "self_check_ids": [
+        "BOUNDARY_TRUST",
+        "KEY_AREAS_TRUST",
+        "LAND_USE_TOPOLOGY",
+        "VISUAL_STATIC"
+      ],
+      "evidence_summary_zh": "本条标准响应通过 proposal.md §2.5（北纬社区职能分工与协同机制）、§5.6（共享基础设施层 × 12 场景卡复用矩阵）、§5.7（数据治理七段闭环与四级分级）正文引用，以及 metrics.json 的 M-REUSE-LAYERS / M-REUSE-RATIO / M-DATA-TIERS 共同证明。"
     }
   ]
 }

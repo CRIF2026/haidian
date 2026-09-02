@@ -1,6 +1,6 @@
 {
   "schema_version": "0.1.0",
-  "accessed_date": "2026-08-07",
+  "accessed_date": "2026-09-02",
   "sources": [
     {
       "id": "SRC-2026-BJ-GH-QUAL-PREANNOUNCEMENT",
@@ -9,6 +9,11 @@
       "published_date": "2026-05-09",
       "url": "https://ghzrzyw.beijing.gov.cn/zhengwuxinxi/tzgg/hd/202605/t20260509_4643047.html",
       "authority_level": "A0",
+      "retrieved_at": "2026-09-02",
+      "license": "政府公开政务信息，可引用",
+      "redistributable": true,
+      "authorization_status": "official_public",
+      "usable_for_formal": true,
       "usable_for": [
         "官方项目名称",
         "官方文本四至",
@@ -29,6 +34,11 @@
       "published_date": "2026-04-03",
       "url": "https://kw.beijing.gov.cn/xwdt/kcyx/xwdtcyfz/202604/t20260403_4573808.html",
       "authority_level": "A1",
+      "retrieved_at": "2026-09-02",
+      "license": "政府公开政务信息，可引用",
+      "redistributable": true,
+      "authorization_status": "official_public",
+      "usable_for_formal": true,
       "usable_for": [
         "三区两翼叙事",
         "产业生态背景"
@@ -45,6 +55,11 @@
       "published_date": "2026-03-02",
       "url": "https://www.bjhd.gov.cn/ztzx/2026/2026jjshgzlfzdh/yw/202603/t20260303_4806875.shtml",
       "authority_level": "A1",
+      "retrieved_at": "2026-09-02",
+      "license": "政府公开政务信息，可引用",
+      "redistributable": true,
+      "authorization_status": "official_public",
+      "usable_for_formal": true,
       "usable_for": [
         "产业定位",
         "AI核心产业"
@@ -60,6 +75,11 @@
       "published_date": "2017-03-14",
       "url": "https://www.mohurd.gov.cn/gongkai/zc/wjk/art/2023/art_17339_775476.html",
       "authority_level": "A0",
+      "retrieved_at": "2026-09-02",
+      "license": "部委规章，公开发布",
+      "redistributable": true,
+      "authorization_status": "official_public",
+      "usable_for_formal": true,
       "usable_for": [
         "城市设计目的与范围",
         "公共空间与风貌要求"
@@ -74,6 +94,11 @@
       "publisher": "住房城乡建设部",
       "url": "https://www.gov.cn/zhengce/2022-01/25/content_5711967.htm",
       "authority_level": "A0",
+      "retrieved_at": "2026-09-02",
+      "license": "部委规章，公开发布",
+      "redistributable": true,
+      "authorization_status": "official_public",
+      "usable_for_formal": true,
       "usable_for": [
         "控规深度参考",
         "已知控制vs待确认区分"
@@ -89,6 +114,11 @@
       "published_date": "2023-11-22",
       "url": "https://www.gov.cn/zhengce/zhengceku/202311/content_6917279.htm",
       "authority_level": "A0",
+      "retrieved_at": "2026-09-02",
+      "license": "部委指南，公开发布",
+      "redistributable": true,
+      "authorization_status": "official_public",
+      "usable_for_formal": true,
       "usable_for": [
         "用地分类代码"
       ],
@@ -103,6 +133,11 @@
       "published_date": "2026-05-18",
       "url": "brief/site-package/agent_taskbook.json",
       "authority_level": "user_provided_cleared",
+      "retrieved_at": "2026-09-02",
+      "license": "用户清权文档，随征集包授权使用",
+      "redistributable": true,
+      "authorization_status": "user_cleared",
+      "usable_for_formal": true,
       "usable_for": [
         "智能体共创原则",
         "agent六项任务",
@@ -123,6 +158,11 @@
       "published_date": "2026-06-05",
       "url": "brief/site-package/geometry/provisional_boundaries.geojson",
       "authority_level": "provisional",
+      "retrieved_at": "2026-09-02",
+      "license": "CC BY 4.0（维护者授权）",
+      "redistributable": true,
+      "authorization_status": "maintainer_granted",
+      "usable_for_formal": false,
       "usable_for": [
         "临时AI生成边界",
         "离线可视化",
@@ -142,6 +182,11 @@
       "publisher": "OpenStreetMap Foundation",
       "url": "https://www.openstreetmap.org/copyright",
       "authority_level": "open_data_license",
+      "retrieved_at": "2026-09-02",
+      "license": "ODbL 1.0（须署名）",
+      "redistributable": true,
+      "authorization_status": "open_license",
+      "usable_for_formal": true,
       "usable_for": [
         "OSM数据署名",
         "许可要求"
@@ -156,6 +201,11 @@
       "publisher": "Mila (Quebec AI Institute)",
       "url": "https://mila.quebec",
       "authority_level": "B",
+      "retrieved_at": "2026-09-02",
+      "license": "机构公开主页，遵循服务条款；仅机制借鉴，不复制其内容",
+      "redistributable": false,
+      "authorization_status": "public_homepage",
+      "usable_for_formal": false,
       "usable_for": [
         "高校联合体＋产业联合实验室＋开源文化机制借鉴",
         "面向决策者的 AI 政策课程机制借鉴"
@@ -172,6 +222,11 @@
       "publisher": "Vector Institute",
       "url": "https://vectorinstitute.ai",
       "authority_level": "B",
+      "retrieved_at": "2026-09-02",
+      "license": "机构公开主页，遵循服务条款；仅机制借鉴，不复制其内容",
+      "redistributable": false,
+      "authorization_status": "public_homepage",
+      "usable_for_formal": false,
       "usable_for": [
         "研究—产业转化桥梁机制借鉴",
         "企业 AI 训练营接入通道机制借鉴"
@@ -188,6 +243,11 @@
       "publisher": "The Alan Turing Institute",
       "url": "https://turing.ac.uk",
       "authority_level": "B",
+      "retrieved_at": "2026-09-02",
+      "license": "机构公开主页，遵循服务条款；仅机制借鉴，不复制其内容",
+      "redistributable": false,
+      "authorization_status": "public_homepage",
+      "usable_for_formal": false,
       "usable_for": [
         "公共部门试验床机制借鉴",
         "可信 AI 保证框架（TEA）开源参考"
@@ -204,6 +264,11 @@
       "publisher": "STATION F",
       "url": "https://stationf.co",
       "authority_level": "B",
+      "retrieved_at": "2026-09-02",
+      "license": "机构公开主页，遵循服务条款；仅机制借鉴，不复制其内容",
+      "redistributable": false,
+      "authorization_status": "public_homepage",
+      "usable_for_formal": false,
       "usable_for": [
         "超大单体创业园载体集聚机制借鉴",
         "统一运营方降低服务成本机制借鉴"
@@ -219,6 +284,11 @@
       "publisher": "National AI Office, Singapore (AI Singapore)",
       "url": "https://aisingapore.org",
       "authority_level": "B",
+      "retrieved_at": "2026-09-02",
+      "license": "机构公开主页，遵循服务条款；仅机制借鉴，不复制其内容",
+      "redistributable": false,
+      "authorization_status": "public_homepage",
+      "usable_for_formal": false,
       "usable_for": [
         "场景清单＋实验制（100E）组织机制借鉴",
         "AI 治理作为独立支柱机制借鉴"
@@ -235,6 +305,11 @@
       "publisher": "Startup Nation Central",
       "url": "https://startupnationcentral.org",
       "authority_level": "B",
+      "retrieved_at": "2026-09-02",
+      "license": "机构公开主页，遵循服务条款；仅机制借鉴，不复制其内容",
+      "redistributable": false,
+      "authorization_status": "public_homepage",
+      "usable_for_formal": false,
       "usable_for": [
         "统一数据平台降低生态信息不对称机制借鉴",
         "服务招引与对接机制借鉴"
@@ -244,6 +319,235 @@
         "平台数据口径未经本地重制直接采用",
         "受版权文本或图形复制"
       ]
+    },
+    {
+      "id": "SRC-2026-BJHD-AI-BEIWEI",
+      "title": "中关村 AI 北纬社区：官方公开发布与园区开放（北京日报／中关村科学城／投资北京公开稿）",
+      "publisher": "北京日报／中关村科学城／投资北京（公开报道）",
+      "published_date": "2025-07-07",
+      "url": "https://baike.baidu.com/item/%E4%B8%AD%E5%85%B3%E6%9D%91AI%E5%8C%97%E7%BA%AC%E7%A4%BE%E5%8C%BA/65537676",
+      "authority_level": "B",
+      "retrieved_at": "2026-09-02",
+      "license": "公开媒体报道（北京日报／中关村科学城／投资北京），非官方规划文件",
+      "redistributable": false,
+      "authorization_status": "public_media",
+      "usable_for_formal": false,
+      "usable_for": [
+        "北纬社区定位（全球 AI 原生创业孵化平台）",
+        "选址（海淀大悦信息科技园 D 区，北清路北，紧邻故宫北院／翠湖湿地）",
+        "首期约 6 万㎡ 产业空间（2025-07 开放）",
+        "毗邻中科院半导体所／中关村学院",
+        "五类功能承载区与免租等政策礼包",
+        "2025-09 入选北京市第三批中关村特色产业园"
+      ],
+      "not_usable_for": [
+        "作为本带官方边界或红线",
+        "园区精确面积用于正式评分（待官方 redline）",
+        "受版权图文复制"
+      ],
+      "note": "本条目聚合自北京日报／中关村科学城公众号／投资北京公开稿，事实以官方后续发布为准；仅用于说明本带与北纬社区的空间与职能关系，不作为定量依据。"
+    },
+    {
+      "id": "SRC-2026-BJHD-AI-OPC",
+      "title": "北纬社区 OPC 友好社区机制与 AI 工具／Agent 超市（选址中国 OPC 社区指南）",
+      "publisher": "选址中国（公开报道）",
+      "published_date": "2025-12-01",
+      "url": "https://wap.xuanzhizhongguo.com/#/DetailInfoView?id=39422",
+      "authority_level": "B",
+      "retrieved_at": "2026-09-02",
+      "license": "公开媒体报道，非官方规划文件",
+      "redistributable": false,
+      "authorization_status": "public_media",
+      "usable_for_formal": false,
+      "usable_for": [
+        "OPC（One Person Company）友好社区机制",
+        "AI 工具平台与 Agent 服务超市",
+        "弹性低成本算力与场景开放（链主征集／揭榜挂帅）",
+        "OPC 夜校（2026-01 揭牌）等能力建设机制"
+      ],
+      "not_usable_for": [
+        "作为本带运营承诺",
+        "受版权图文复制"
+      ],
+      "note": "用于说明本带可借鉴的 OPC／单人公司孵化与场景开放机制，属机制借鉴而非数据引用。"
+    }
+  ],
+  "asset_rights": [
+    {
+      "asset": "assets/figures/key-areas.png",
+      "kind": "figure",
+      "license": "CC BY 4.0（提交方原创生成）",
+      "redistributable": true,
+      "authorization_status": "original_generated",
+      "notes": "基于临时 polygon 与公开底图生成；底图仅作背景，不含官方红线。"
+    },
+    {
+      "asset": "assets/figures/site-overview.png",
+      "kind": "figure",
+      "license": "CC BY 4.0（提交方原创生成）",
+      "redistributable": true,
+      "authorization_status": "original_generated",
+      "notes": "含自设计 Logo 合成；Logo 为原创图形，无第三方版权。"
+    },
+    {
+      "asset": "assets/figures/spatial-action-index.png",
+      "kind": "figure",
+      "license": "CC BY 4.0（提交方原创生成）",
+      "redistributable": true,
+      "authorization_status": "original_generated",
+      "notes": "原创生成，无第三方版权。"
+    },
+    {
+      "asset": "assets/figures/land-use-structure.png",
+      "kind": "figure",
+      "license": "CC BY 4.0（提交方原创生成）",
+      "redistributable": true,
+      "authorization_status": "original_generated",
+      "notes": "用地分类采用 MNR 指南编码，自绘结构图。"
+    },
+    {
+      "asset": "assets/figures/metrics-evidence.png",
+      "kind": "figure",
+      "license": "CC BY 4.0（提交方原创生成）",
+      "redistributable": true,
+      "authorization_status": "original_generated",
+      "notes": "指标证据图，原创生成。"
+    },
+    {
+      "asset": "assets/figures/mobility-bluegreen.png",
+      "kind": "figure",
+      "license": "CC BY 4.0（提交方原创生成）",
+      "redistributable": true,
+      "authorization_status": "original_generated",
+      "notes": "交通蓝绿图，原创生成。"
+    },
+    {
+      "asset": "assets/figures/logo.png",
+      "kind": "figure",
+      "license": "CC BY 4.0（提交方原创设计）",
+      "redistributable": true,
+      "authorization_status": "original_generated",
+      "notes": "“碳硅折叠”品牌标识，原创矢量设计，无第三方版权；同步合成进 site-overview.png 与 key-areas.png。"
+    },
+    {
+      "asset": "drawings/a0-boards.pdf",
+      "kind": "drawing",
+      "license": "CC BY 4.0（提交方原创生成）",
+      "redistributable": true,
+      "authorization_status": "original_generated",
+      "notes": "由 make_drawings.py 生成，字体为内嵌 Noto Sans SC 子集（SIL OFL 1.1）。"
+    },
+    {
+      "asset": "drawings/a3-booklet.pdf",
+      "kind": "drawing",
+      "license": "CC BY 4.0（提交方原创生成）",
+      "redistributable": true,
+      "authorization_status": "original_generated",
+      "notes": "由 make_drawings.py 生成，字体为内嵌 Noto Sans SC 子集（SIL OFL 1.1）。"
+    },
+    {
+      "asset": "report/proposal.html",
+      "kind": "html",
+      "license": "CC BY 4.0（提交方原创生成）",
+      "redistributable": true,
+      "authorization_status": "original_generated",
+      "notes": "由 render_proposal_html.py 生成；内嵌 Noto Sans SC 子集（SIL OFL 1.1）。"
+    },
+    {
+      "asset": "visual/index.html",
+      "kind": "html",
+      "license": "CC BY 4.0（提交方原创生成）",
+      "redistributable": true,
+      "authorization_status": "original_generated",
+      "notes": "可视化页；内嵌 Noto Sans SC 子集（SIL OFL 1.1）。"
+    },
+    {
+      "asset": "geometry/site_boundary.geojson",
+      "kind": "geojson",
+      "license": "CC BY 4.0（维护者临时 polygon）",
+      "redistributable": true,
+      "authorization_status": "maintainer_granted",
+      "notes": "见 SRC-PROVISIONAL-BOUNDARIES-2026；非 official redline，不用于正式评分。"
+    },
+    {
+      "asset": "geometry/key_areas.geojson",
+      "kind": "geojson",
+      "license": "CC BY 4.0（维护者临时 polygon）",
+      "redistributable": true,
+      "authorization_status": "maintainer_granted",
+      "notes": "三处重点区临时 polygon；非 official redline。"
+    },
+    {
+      "asset": "geometry/land_use.geojson",
+      "kind": "geojson",
+      "license": "CC BY 4.0（维护者临时 polygon）",
+      "redistributable": true,
+      "authorization_status": "maintainer_granted",
+      "notes": "概念用地，采用 MNR 用地分类编码。"
+    },
+    {
+      "asset": "geometry/buildings.geojson",
+      "kind": "geojson",
+      "license": "CC BY 4.0（维护者临时 polygon）",
+      "redistributable": true,
+      "authorization_status": "maintainer_granted",
+      "notes": "概念建筑轮廓，临时 polygon。"
+    },
+    {
+      "asset": "geometry/roads.geojson",
+      "kind": "geojson",
+      "license": "CC BY 4.0（维护者临时 polygon）",
+      "redistributable": true,
+      "authorization_status": "maintainer_granted",
+      "notes": "概念路网，临时 polygon。"
+    },
+    {
+      "asset": "geometry/green_space.geojson",
+      "kind": "geojson",
+      "license": "CC BY 4.0（维护者临时 polygon）",
+      "redistributable": true,
+      "authorization_status": "maintainer_granted",
+      "notes": "概念蓝绿，临时 polygon。"
+    },
+    {
+      "asset": "geometry/public_space.geojson",
+      "kind": "geojson",
+      "license": "CC BY 4.0（维护者临时 polygon）",
+      "redistributable": true,
+      "authorization_status": "maintainer_granted",
+      "notes": "概念公共空间，临时 polygon。"
+    },
+    {
+      "asset": "geometry/constraints.geojson",
+      "kind": "geojson",
+      "license": "CC BY 4.0（维护者临时 polygon）",
+      "redistributable": true,
+      "authorization_status": "maintainer_granted",
+      "notes": "概念约束（含文保 CON-001），临时 polygon。"
+    },
+    {
+      "asset": "geometry/phasing.geojson",
+      "kind": "geojson",
+      "license": "CC BY 4.0（维护者临时 polygon）",
+      "redistributable": true,
+      "authorization_status": "maintainer_granted",
+      "notes": "概念分期，临时 polygon。"
+    },
+    {
+      "asset": "embedded-font:Noto Sans SC (subset)",
+      "kind": "font",
+      "license": "SIL Open Font License 1.1（Google Fonts）",
+      "redistributable": true,
+      "authorization_status": "open_license",
+      "notes": "仅内嵌子集（约 3–5k 字形）用于离线渲染；OFL 要求保留版权与许可声明，已随包声明。"
+    },
+    {
+      "asset": "toolchain:matplotlib / reportlab / fontTools",
+      "kind": "toolchain",
+      "license": "matplotlib（BSL）、reportlab（BSD）、fontTools（MIT）",
+      "redistributable": false,
+      "authorization_status": "open_license",
+      "notes": "构建期依赖，不随征集包再分发；仅用于本地生成图件与 PDF。"
     }
   ]
 }
