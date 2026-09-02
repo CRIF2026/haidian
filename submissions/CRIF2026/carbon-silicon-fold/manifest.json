@@ -12,13 +12,13 @@
     "agent_name": "CRIF2026 城市设计智能体（WorkBuddy 驱动）",
     "model": "hy3 (WorkBuddy managed)"
   },
-  "generated_at": "2026-09-02T12:18:13.000000+00:00",
+  "generated_at": "2026-09-02T14:54:27+00:00",
   "files": [
     {
       "path": "proposal.md",
       "role": "narrative",
       "required": true,
-      "sha256": "7ec1c0bab475736d7da9257618bb91f5bcb2af43aad2435aebee9c5eeb07963d",
+      "sha256": "5062e149a6faef9f5531b8ce90cf97530ba995b170b6e7ea1f10479bbc0f6e49",
       "language": "zh"
     },
     {
@@ -59,7 +59,7 @@
       "path": "self_check.json",
       "role": "self_check",
       "required": true,
-      "sha256": "990a890f34f08b4ebd03e569ce777409362f0feebcfd9ae4bb0c2926c35fe534",
+      "sha256": "4acbaf901e45e768cfa13f8f0a4c37ff9f3706df540d813b60a606999e38ca76",
       "language": "zh"
     },
     {
@@ -150,49 +150,49 @@
       "path": "assets/figures/site-overview.png",
       "role": "proposal_figure",
       "required": true,
-      "sha256": "cbb05b7de54e72395b4b5304f9352d176b4a97add2385848ae2f4cd86645dfaa",
+      "sha256": "e750638130f464d738bafcce7f6e72e9f575f47cdf57dd5e20baccc3e49fe889",
       "language": "zh"
     },
     {
       "path": "assets/figures/land-use-structure.png",
       "role": "proposal_figure",
       "required": true,
-      "sha256": "532af1c47521d15260ae80b1d5f14192024d11313c2364db3e8c2e4c5f5fac2e",
+      "sha256": "6743141f32da21db801a3009e341065dc8bcca189a7e9c32cfe19846a19a4e62",
       "language": "zh"
     },
     {
       "path": "assets/figures/key-areas.png",
       "role": "proposal_figure",
       "required": true,
-      "sha256": "f82958b83861a42f64bf45b0df7ff47146811ac99ece78f38d2ee8b87ef1478a",
+      "sha256": "3a5341ea33b95adf69dc842a6296e3cef91e2f31039ff04ff4de6a98225a5c5f",
       "language": "zh"
     },
     {
       "path": "assets/figures/mobility-bluegreen.png",
       "role": "proposal_figure",
       "required": true,
-      "sha256": "8c0988eeab287c447e38c6c6a3f64d7f2263fa5a4cce6fd4000b6fd8fb99e492",
+      "sha256": "50b2e649c3b56f45e504c2dcdb630fcb6a8129db8d1a69918f1e2a9266540243",
       "language": "zh"
     },
     {
       "path": "assets/figures/metrics-evidence.png",
       "role": "proposal_figure",
       "required": true,
-      "sha256": "0632a79bcef13db27d664fe4be8d5a8dc224530a494b0f802564022574a20dbf",
+      "sha256": "4514ee5900d5a9814143edd6e760e953dbf7012713858eae9672cae822de834d",
       "language": "zh"
     },
     {
       "path": "assets/figures/spatial-action-index.png",
       "role": "proposal_figure",
       "required": false,
-      "sha256": "08a16ba264b7175a720148a377690920319c700fa5841020f2132718d5049ef9",
+      "sha256": "5a0f6d408ac88164e2631665e957a1c77786405da00f49b85cd11e6d74e6ca1b",
       "language": "zh"
     },
     {
       "path": "assets/figures/logo.png",
       "role": "proposal_figure",
       "required": false,
-      "sha256": "f34f636ae38cc9cb2a64da544bef90bb475c632467798861f6b6310d3c6d60a7",
+      "sha256": "815331d485ab40b44a160d3ebabad0fd422dae07bb2b9e932d6f342d2b2025bc",
       "language": "zh"
     },
     {
@@ -220,21 +220,21 @@
       "path": "drawings/a3-booklet.pdf",
       "role": "drawing",
       "required": true,
-      "sha256": "0479922901c9899c88d8f2891ae4e0a215653ffca4872966d27fee4789ee4c2c",
+      "sha256": "eef58a853f380de9b67792be0069c04d30b4d0bab1345f880582f39ac4dccffe",
       "language": "zh"
     },
     {
       "path": "drawings/a0-boards.pdf",
       "role": "drawing",
       "required": true,
-      "sha256": "244c468d65fa92025586438713db3d75838446d4d444363632698728a6603ce5",
+      "sha256": "04826c8e28e1cfa078a4d0c5b84201d6e7d2047faca62ed5b7efcb4b71e9af6e",
       "language": "zh"
     },
     {
       "path": "visual/index.html",
       "role": "visualization",
       "required": true,
-      "sha256": "7ba6e4d265dba92da4ee540d0fac8c6818253448ea941180f912b27ad685f7e8",
+      "sha256": "defa20a872f2f803f171ed0ad070e1426c9459b2f74ab62c13c6a2455de96bb8",
       "language": "zh"
     },
     {
@@ -245,7 +245,7 @@
       "translation_of": "proposal.md",
       "title_en": "Carbon-Silicon Fold · Centennial Jing-Zhang AI Innovation Belt Urban Design Proposal (English)",
       "description_en": "Full English translation of the formal AI-agent response package; preserves all evidence anchors ([source:]/[metric:]/[standard:]/[data:]/[agent.N]/[depth:]), tables, and numeric values.",
-      "sha256": "534a24c12cb469bad5671396637155eea866b439e6b8cdc7a1e2c8249cd63788"
+      "sha256": "25dfcb15d127984be176e556423ddd31b3f9d927f1b7d537c317836600c2474f"
     },
     {
       "path": "visual/index.en.html",
@@ -255,7 +255,7 @@
       "translation_of": "visual/index.html",
       "title_en": "Proposal Dashboard (Offline, English)",
       "description_en": "Offline static bilingual dashboard — English version of the proposal visual board.",
-      "sha256": "50ec121762f9542e43bef26d986a1569d54bba1ff306282895cb9d342684ebc8"
+      "sha256": "a5e02f980fc0e9ecd2441ffa8f9cce23817b7b62a1ec03c008375abae46cb8d5"
     },
     {
       "path": "report/proposal.en.html",
@@ -265,13 +265,13 @@
       "translation_of": "report/proposal.html",
       "title_en": "Rendered Proposal HTML (English)",
       "description_en": "HTML rendering of the English proposal translation, with a language-switch link back to the Chinese report.",
-      "sha256": "59dd732e6de4ca7875233d8fbc6005602a7420ba88ca48b55d4fc464dfdd8e10"
+      "sha256": "727a720d14020c509c3600d4f4358979710fd4c50200b6d0f97a8d350fc265c3"
     },
     {
       "path": "assets/figures/site-overview.en.png",
       "role": "proposal_figure",
       "required": true,
-      "sha256": "6122ddae8b06ed3e0ef60950c548373a18de1a2b36fee11c3869063c9f6b3cac",
+      "sha256": "b135237d7063dc322f151245d5bcad223403c45114efed9bfafe81ef9b1f6010",
       "language": "en",
       "translation_of": "assets/figures/site-overview.png"
     },
@@ -279,7 +279,7 @@
       "path": "assets/figures/land-use-structure.en.png",
       "role": "proposal_figure",
       "required": true,
-      "sha256": "a32ff10284059142784abb88e0f78a8a4feebd6f755f0945f7b0f38093b0e912",
+      "sha256": "0ff8a07d5e21a7ea159d9cfffae378feef92489347322e8bd7962342ca076931",
       "language": "en",
       "translation_of": "assets/figures/land-use-structure.png"
     },
@@ -287,7 +287,7 @@
       "path": "assets/figures/key-areas.en.png",
       "role": "proposal_figure",
       "required": true,
-      "sha256": "fbf2cd6c00859c6f39af197b5e78e392b1fde1d90773bcb681e5503f58a9dbb4",
+      "sha256": "96512f20500df3f54e3567783c82c4fe070568da476da033ef80e50c7e820768",
       "language": "en",
       "translation_of": "assets/figures/key-areas.png"
     },
@@ -295,7 +295,7 @@
       "path": "assets/figures/mobility-bluegreen.en.png",
       "role": "proposal_figure",
       "required": true,
-      "sha256": "c2967b1d4625bc11b56a2d55daaad6492589d7ec6c689a3bd00ca6a61c0737c7",
+      "sha256": "c06c7db850fdb6f4a62bb75c0660caaf6aa498c15c0466b9b8d964bc1061e47e",
       "language": "en",
       "translation_of": "assets/figures/mobility-bluegreen.png"
     },
@@ -303,7 +303,7 @@
       "path": "assets/figures/metrics-evidence.en.png",
       "role": "proposal_figure",
       "required": true,
-      "sha256": "9fc25eda7625d3064a61f4e441f77748b0a32c44395a2b79808a5eb4ad740bb7",
+      "sha256": "ebb7acdf7bc483413402ef2a93bf5436de9d0cbac61786d575d0b551a6a79162",
       "language": "en",
       "translation_of": "assets/figures/metrics-evidence.png"
     },
@@ -311,7 +311,7 @@
       "path": "assets/figures/spatial-action-index.en.png",
       "role": "proposal_figure",
       "required": false,
-      "sha256": "f05d8d328b65aa21358e9e50779f9263ff7b70350601bc2e5f7fbea711372b25",
+      "sha256": "de0e1a0baa50c2c967c5438df1a97b2d0e359bedb97553204cf9df03134f87d4",
       "language": "en",
       "translation_of": "assets/figures/spatial-action-index.png"
     },
@@ -319,7 +319,7 @@
       "path": "assets/figures/logo.en.png",
       "role": "proposal_figure",
       "required": false,
-      "sha256": "1f976acbbdb017e8baa54fc183c217b2bc9334fd6a5c62d8d706d561e3fc8216",
+      "sha256": "b21c5182cce69ff7ecb49cac1abc859505a3c5dba3bf6dc4243dd28e4f0b2faa",
       "language": "en",
       "translation_of": "assets/figures/logo.png"
     },
@@ -327,7 +327,7 @@
       "path": "drawings/a3-booklet.en.pdf",
       "role": "drawing",
       "required": false,
-      "sha256": "b1017a9b6828380b0f005a09d1c01b2df66159d99416e0509d8f591025d2feaf",
+      "sha256": "6fa898402fb0487d6a5fffd44b4a4eddb132dceeb8e9040e72454e4daaaad357",
       "language": "en",
       "translation_of": "drawings/a3-booklet.pdf",
       "title_en": "A3 Drawing Booklet (English)",
@@ -337,7 +337,7 @@
       "path": "drawings/a0-boards.en.pdf",
       "role": "drawing",
       "required": false,
-      "sha256": "47a3c6ece473680e198a88aa7fba50cee7ae2b122e9ee82477baac52970850e8",
+      "sha256": "5760b730fe20179252e4e68cdbf901db37045d98667d497dd3737aa2fc512107",
       "language": "en",
       "translation_of": "drawings/a0-boards.pdf",
       "title_en": "A0 Exhibition Boards (English)",

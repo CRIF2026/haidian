@@ -88,7 +88,7 @@ Full-stack autonomous innovation system / world-class AI innovation ecosystem / 
 - **Three Zones**: Beijing AI Origin Community (world-class innovation ecosystem), Zhizhiyuan AI Full-Stack Autonomy Acceleration Zone (full-stack autonomy + governance discourse), Dazhongsi AI Industry Cluster (intelligent-native new formats).
 - **Two Wings**: Zhongguancun tech-service wing (global factor allocation, IP & capital), Xiaoyue River scenario-empowerment wing (AI scenario empowerment & vibrant city) [source:SRC-2026-0518-AGENT-OPEN-CALL-TASKBOOK].
 
-![site-overview schematic](assets/figures/site-overview.png)
+![site-overview schematic](assets/figures/site-overview.en.png)
 *Fig. 1 Overall-design-scope conceptual overview: the Three Zones & Two Wings synergy loop and the Jing-Zhang heritage-park vibrancy axis. Scope basis is the organizer's provisional coarse boundary, not official redline [data:geometry/site_boundary.geojson#SITE-001].*
 
 ### 2.4 Regional Synergy Matrix: Division of Functions Between This Belt and the "Three Cities & One Area" and Jing-Jin-Ji
@@ -143,7 +143,7 @@ Around the key factors of compute, algorithm, and data, propose "AI + software /
 - Campus–park–block fusion renewal district
 - Rail-station integrated renewal nodes (Wudaokou, Qinghua East Road West, Dazhongsi) [source:SRC-2026-BJ-GH-QUAL-PREANNOUNCEMENT]
 
-![land-use structure diagram: full-boundary gap-free zoning of the overall design scope by territorial land-use & sea-use classification, marking the heritage constraint point of the former Tsinghua Garden station](assets/figures/land-use-structure.png)
+![land-use structure diagram: full-boundary gap-free zoning of the overall design scope by territorial land-use & sea-use classification, marking the heritage constraint point of the former Tsinghua Garden station](assets/figures/land-use-structure.en.png)
 *Fig. 2 Land-use structure (territorial land-use & sea-use classification): gap-free zoning of residential / research / commercial / green [standard:MNR-LAND-USE-CLASSIFICATION-GUIDE] [data:geometry/land_use.geojson#LU-0001].*
 
 ---
@@ -166,7 +166,7 @@ A near-campus innovation district around Tsinghua, Peking, and CAS original-inno
 
 An urban-type innovation district around agents, intelligent terminals, and content consumption as AI-native new formats, exploring data-factor and digital-asset circulation. Conceptual recommendation: Dazhongsi-station four-quadrant walkable connectivity, non-motorized parking and public-environment quality improvement [metric:M-AREA-KEY-003].
 
-![three key areas differentiated-positioning diagram: north Zhizhiyuan, center Origin Community, south Dazhongsi, with announcement vs recompute area comparison table](assets/figures/key-areas.png)
+![three key areas differentiated-positioning diagram: north Zhizhiyuan, center Origin Community, south Dazhongsi, with announcement vs recompute area comparison table](assets/figures/key-areas.en.png)
 *Fig. 3 Key-area detailed design: three-zone functional differentiation and positioning (provisional boundary) [data:geometry/key_areas.geojson#KEY-001].*
 
 ---
@@ -352,7 +352,7 @@ This package divides data into **4 classification tiers** [metric:M-DATA-TIERS],
 
 **Spatial rationale**: The Jing-Zhang heritage park is the spatial spine of the "Centennial Jing-Zhang Culture Belt."
 
-![transport & blue-green continuity diagram: north–south park main axis, east–west stitching roads, rail corridor, three rail-integration nodes, and Qinghe–Xiaoyue River blue-green links](assets/figures/mobility-bluegreen.png)
+![transport & blue-green continuity diagram: north–south park main axis, east–west stitching roads, rail corridor, three rail-integration nodes, and Qinghe–Xiaoyue River blue-green links](assets/figures/mobility-bluegreen.en.png)
 *Fig. 4 Transport micro-circulation & blue-green public-space continuity (Jing-Zhang heritage park north–south penetrating axis) [data:geometry/public_space.geojson#PUB-001] [metric:M-PUBLIC-SPACE-LEN].*
 
 **Fabric control**: This package gives no mandatory formal conclusion on building height & massing — related regulatory conditions are missing; it only proposes directional principles of "continuous park interface, recognizable nodes, materials echoing Jing-Zhang industrial heritage" [standard:MOHURD-URBAN-DESIGN-MEASURES].
@@ -414,7 +414,7 @@ The table below turns the phasing plan into nine verifiable actions. **This matr
 | C2 | Data-minimization & privacy-compliance baseline | Data-governance task force | Data classification & grading list compiled | Compliance baseline passes legal & cyber-review | Classification coverage, audit pass rate | Unpassed data source barred | Recommendation, not commitment |
 | C3 | Long-term operation & activity system | Brand operator | Brand identity system & annual budget set | Annual activity plan approved | Event count, participant count, developer-retention rate | Shrink to online events | Recommendation, not commitment |
 
-![spatial-action index map: implementation matrix A1–A3, B1–B3, C1–C3 nine actions spatially located with three-phase scope overlay](assets/figures/spatial-action-index.png)
+![spatial-action index map: implementation matrix A1–A3, B1–B3, C1–C3 nine actions spatially located with three-phase scope overlay](assets/figures/spatial-action-index.en.png)
 *Fig. 6 Spatial-action index: locating the nine implementation-matrix actions on three zones, two wings, rail nodes, park axis, with phase scope overlaid [data:geometry/phasing.geojson#PH-2].*
 
 ---
@@ -440,7 +440,7 @@ The same provisional polygon yields different areas under different projections 
 | Building footprint | —— (not given) | —— | 9.33 ha | —— | Only 9 schematic buildings, not current census; not for scale inference |
 | Renewal-potential proxy area | —— (not given) | 119.90 ha | —— | —— | Reserve land (code 16) area as proxy, not current-renewal-potential survey |
 
-![metrics & evidence-chain diagram: range metrics in ha, announcement vs recompute comparison, ratio metrics in %, count metrics in items with taskbook lower bound, and three-caliber comparison table](assets/figures/metrics-evidence.png)
+![metrics & evidence-chain diagram: range metrics in ha, announcement vs recompute comparison, ratio metrics in %, count metrics in items with taskbook lower bound, and three-caliber comparison table](assets/figures/metrics-evidence.en.png)
 *Fig. 5 Core metrics & evidence chain (announcement approx. / submitted-geometry recompute / spatial-review recompute) [metric:M-AREA-SITE].*
 
 **Metrics with no value given**: `M-FAR-PROXY` (regulatory FAR missing) and `M-TRANSIT-COVERAGE` (passenger & station data missing) stay unknown, **no fabricated value** [metric:M-FAR-PROXY].
@@ -482,7 +482,7 @@ Naming system "one belt — three zones — two wings — multi-points," consist
 | Font & license | Word group uses Noto Sans SC (SIL OFL 1.1), embedding & redistribution allowed; trademark search & font-license archiving required before formal commercial use. |
 | Unfinished items | No trademark similarity search yet; no vector source or min-size spec; no dark-background or monochrome test. |
 
-![brand identity original draft: main lock combination, five-step symbol construction, color & graphic grammar, three application examples](assets/figures/logo.png)
+![brand identity original draft: main lock combination, five-step symbol construction, color & graphic grammar, three application examples](assets/figures/logo.en.png)
 *Fig. 7 Brand-identity original draft (conceptual direction, not final deliverable). Word group uses Noto Sans SC (SIL OFL 1.1).*
 
 ### 12.2 agent.2 Full-Stack Autonomy System & World-Class Ecosystem
