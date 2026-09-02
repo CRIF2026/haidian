@@ -12,13 +12,13 @@
     "agent_name": "CRIF2026 城市设计智能体（WorkBuddy 驱动）",
     "model": "hy3 (WorkBuddy managed)"
   },
-  "generated_at": "2026-08-31T14:30:03.925911+00:00",
+  "generated_at": "2026-09-02T12:00:51.000000+00:00",
   "files": [
     {
       "path": "proposal.md",
       "role": "narrative",
       "required": true,
-      "sha256": "ebeff347ec6ff1381caffa9c92d9fa0441a2f4afc14e64bb56df6c6b46d248a1",
+      "sha256": "7ec1c0bab475736d7da9257618bb91f5bcb2af43aad2435aebee9c5eeb07963d",
       "language": "zh"
     },
     {
@@ -52,14 +52,14 @@
       "path": "sources.json",
       "role": "sources",
       "required": true,
-      "sha256": "cee5e2af230d497c36984b913028e4f4ce56be330f0a07c4fb9779924767fd71",
+      "sha256": "386baa4b83a9d64f83a19e15a3a66429db45d03fbc36fb43b5ba2b16d6c7326d",
       "language": "zh"
     },
     {
       "path": "self_check.json",
       "role": "self_check",
       "required": true,
-      "sha256": "5d30d242ccb3f5f9c098663ec98fe58c5205574766e68d5d98f258c62e935201",
+      "sha256": "c496d96b439e09b3021be5aa2c4443e921d546627f6a35062673e8e14a653f7a",
       "language": "zh"
     },
     {
@@ -245,7 +245,7 @@
       "translation_of": "proposal.md",
       "title_en": "Carbon-Silicon Fold · Centennial Jing-Zhang AI Innovation Belt Urban Design Proposal (English)",
       "description_en": "Full English translation of the formal AI-agent response package; preserves all evidence anchors ([source:]/[metric:]/[standard:]/[data:]/[agent.N]/[depth:]), tables, and numeric values.",
-      "sha256": "0a83f3c85383c8326b05bbb7fe105d058f2102467737f69517bd8477a171c1f7"
+      "sha256": "534a24c12cb469bad5671396637155eea866b439e6b8cdc7a1e2c8249cd63788"
     },
     {
       "path": "visual/index.en.html",
