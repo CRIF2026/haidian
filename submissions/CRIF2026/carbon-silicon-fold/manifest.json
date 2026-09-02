@@ -59,7 +59,7 @@
       "path": "self_check.json",
       "role": "self_check",
       "required": true,
-      "sha256": "4acbaf901e45e768cfa13f8f0a4c37ff9f3706df540d813b60a606999e38ca76",
+      "sha256": "4b41a17e1baf61e89d328066f0ea8bfb0dbfcd66ec8c44c9302177467fa9bf9a",
       "language": "zh"
     },
     {
@@ -164,14 +164,14 @@
       "path": "assets/figures/key-areas.png",
       "role": "proposal_figure",
       "required": true,
-      "sha256": "3a5341ea33b95adf69dc842a6296e3cef91e2f31039ff04ff4de6a98225a5c5f",
+      "sha256": "49da466ef40145b36ccbdca1e83983c604af98dfeb4c3709b19105d7ba85ba39",
       "language": "zh"
     },
     {
       "path": "assets/figures/mobility-bluegreen.png",
       "role": "proposal_figure",
       "required": true,
-      "sha256": "50b2e649c3b56f45e504c2dcdb630fcb6a8129db8d1a69918f1e2a9266540243",
+      "sha256": "82bca258074a4b83903cb5ae8e54fcf59ba0f3fc48fc38c5a2b078aac4b7aabe",
       "language": "zh"
     },
     {
@@ -220,14 +220,14 @@
       "path": "drawings/a3-booklet.pdf",
       "role": "drawing",
       "required": true,
-      "sha256": "eef58a853f380de9b67792be0069c04d30b4d0bab1345f880582f39ac4dccffe",
+      "sha256": "25d833110fb28bf3f9612544896c0a0cea8c8186a0f4409c2972e0922cff382d",
       "language": "zh"
     },
     {
       "path": "drawings/a0-boards.pdf",
       "role": "drawing",
       "required": true,
-      "sha256": "04826c8e28e1cfa078a4d0c5b84201d6e7d2047faca62ed5b7efcb4b71e9af6e",
+      "sha256": "2e0998eb0b90db22c826f346b7564c505dbb657461efb0e7d053bad094113403",
       "language": "zh"
     },
     {
@@ -287,7 +287,7 @@
       "path": "assets/figures/key-areas.en.png",
       "role": "proposal_figure",
       "required": true,
-      "sha256": "96512f20500df3f54e3567783c82c4fe070568da476da033ef80e50c7e820768",
+      "sha256": "4714c05eab01b6a148c53038de3f3f9d41f3fa1a3adff93bf94c8e88b402460c",
       "language": "en",
       "translation_of": "assets/figures/key-areas.png"
     },
@@ -295,7 +295,7 @@
       "path": "assets/figures/mobility-bluegreen.en.png",
       "role": "proposal_figure",
       "required": true,
-      "sha256": "c06c7db850fdb6f4a62bb75c0660caaf6aa498c15c0466b9b8d964bc1061e47e",
+      "sha256": "94fe259b02c3ca04cb3f451dd764312b21b8449374ed55d35a377ba38773d83d",
       "language": "en",
       "translation_of": "assets/figures/mobility-bluegreen.png"
     },
@@ -327,7 +327,7 @@
       "path": "drawings/a3-booklet.en.pdf",
       "role": "drawing",
       "required": false,
-      "sha256": "6fa898402fb0487d6a5fffd44b4a4eddb132dceeb8e9040e72454e4daaaad357",
+      "sha256": "3dee317ce011258139c041c5727686de38cff638dc0653508bc3578a469f1496",
       "language": "en",
       "translation_of": "drawings/a3-booklet.pdf",
       "title_en": "A3 Drawing Booklet (English)",
@@ -337,7 +337,7 @@
       "path": "drawings/a0-boards.en.pdf",
       "role": "drawing",
       "required": false,
-      "sha256": "5760b730fe20179252e4e68cdbf901db37045d98667d497dd3737aa2fc512107",
+      "sha256": "cf771274743e68607064d048d6b9a4a84d7a0f6ca7d07a31da2e3733e480242e",
       "language": "en",
       "translation_of": "drawings/a0-boards.pdf",
       "title_en": "A0 Exhibition Boards (English)",
