@@ -12,7 +12,7 @@
     "agent_name": "CRIF2026 城市设计智能体（WorkBuddy 驱动）",
     "model": "hy3 (WorkBuddy managed)"
   },
-  "generated_at": "2026-09-02T12:00:51.000000+00:00",
+  "generated_at": "2026-09-02T12:18:13.000000+00:00",
   "files": [
     {
       "path": "proposal.md",
@@ -59,7 +59,7 @@
       "path": "self_check.json",
       "role": "self_check",
       "required": true,
-      "sha256": "c496d96b439e09b3021be5aa2c4443e921d546627f6a35062673e8e14a653f7a",
+      "sha256": "990a890f34f08b4ebd03e569ce777409362f0feebcfd9ae4bb0c2926c35fe534",
       "language": "zh"
     },
     {
@@ -199,7 +199,7 @@
       "path": "report/proposal.html",
       "role": "rendered_proposal_html",
       "required": true,
-      "sha256": "f1fcfe9bf22878532af89a9e977dc581591311841d9da7bcca1517a8d66fede0",
+      "sha256": "fe92b144e9f32eaf8419062cd64c6ce9018abd09d2b8914612c6c8cd32ddd00a",
       "language": "zh"
     },
     {
@@ -265,7 +265,7 @@
       "translation_of": "report/proposal.html",
       "title_en": "Rendered Proposal HTML (English)",
       "description_en": "HTML rendering of the English proposal translation, with a language-switch link back to the Chinese report.",
-      "sha256": "62be8d6d19d2addc6310b10a7f4515d7f151403a97db936ca433a593ff61a696"
+      "sha256": "59dd732e6de4ca7875233d8fbc6005602a7420ba88ca48b55d4fc464dfdd8e10"
     },
     {
       "path": "assets/figures/site-overview.en.png",
