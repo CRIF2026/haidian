@@ -59,7 +59,7 @@
       "path": "self_check.json",
       "role": "self_check",
       "required": true,
-      "sha256": "4b41a17e1baf61e89d328066f0ea8bfb0dbfcd66ec8c44c9302177467fa9bf9a",
+      "sha256": "ca48d24fbd52e687a2534bb0758a3ebb189e6722c274f9c1a530e051c3c708a0",
       "language": "zh"
     },
     {
@@ -164,7 +164,7 @@
       "path": "assets/figures/key-areas.png",
       "role": "proposal_figure",
       "required": true,
-      "sha256": "49da466ef40145b36ccbdca1e83983c604af98dfeb4c3709b19105d7ba85ba39",
+      "sha256": "10153c7de74b7a9f6909503c4f7d1967a04c52ede6f291f7bd103e7c19ac39fd",
       "language": "zh"
     },
     {
@@ -220,14 +220,14 @@
       "path": "drawings/a3-booklet.pdf",
       "role": "drawing",
       "required": true,
-      "sha256": "25d833110fb28bf3f9612544896c0a0cea8c8186a0f4409c2972e0922cff382d",
+      "sha256": "610ab1a1a4cd17a11ffb24410de81f1fe97229c896b11326c2fdc8c928ee1e71",
       "language": "zh"
     },
     {
       "path": "drawings/a0-boards.pdf",
       "role": "drawing",
       "required": true,
-      "sha256": "2e0998eb0b90db22c826f346b7564c505dbb657461efb0e7d053bad094113403",
+      "sha256": "44dbc8c35acd6f28dacc2186825db2c93d35e54a4cada1e694e0e679ed161e45",
       "language": "zh"
     },
     {
@@ -287,7 +287,7 @@
       "path": "assets/figures/key-areas.en.png",
       "role": "proposal_figure",
       "required": true,
-      "sha256": "4714c05eab01b6a148c53038de3f3f9d41f3fa1a3adff93bf94c8e88b402460c",
+      "sha256": "85ff113bcd7b3c821da7924880fe0ac275f3fb717eba134fd6ace1865025045b",
       "language": "en",
       "translation_of": "assets/figures/key-areas.png"
     },
@@ -327,7 +327,7 @@
       "path": "drawings/a3-booklet.en.pdf",
       "role": "drawing",
       "required": false,
-      "sha256": "3dee317ce011258139c041c5727686de38cff638dc0653508bc3578a469f1496",
+      "sha256": "31cb3cf1f991747d69169bdc54be484b3acd6a1813d613c393bae3823d539ccf",
       "language": "en",
       "translation_of": "drawings/a3-booklet.pdf",
       "title_en": "A3 Drawing Booklet (English)",
@@ -337,7 +337,7 @@
       "path": "drawings/a0-boards.en.pdf",
       "role": "drawing",
       "required": false,
-      "sha256": "cf771274743e68607064d048d6b9a4a84d7a0f6ca7d07a31da2e3733e480242e",
+      "sha256": "badbb955d788e3b566230403ce934f1a286321950528d5a9e5df263ae6f9e439",
       "language": "en",
       "translation_of": "drawings/a0-boards.pdf",
       "title_en": "A0 Exhibition Boards (English)",
